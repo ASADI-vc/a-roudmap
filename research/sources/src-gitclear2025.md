@@ -1,0 +1,26 @@
+# src-gitclear2025
+- **Title:** AI Copilot Code Quality (2025 report; referred to in coverage as "GitClear AI Copilot Code Quality report" / "AI Code Quality Research 2025")
+- **Author / Organization:** GitClear (code-quality analytics vendor; report authored by the GitClear team)
+- **Canonical URL:** https://www.gitclear.com/ai_assistant_code_quality_2025_research — fetch returned HTTP 403 (Cloudflare "Just a moment") on 2026-11-14; Wayback Machine also unreachable from this environment. Findings below come from two secondary write-ups that quote the report (The New Stack, 2025-03-11; HackerNoon, 2026-05-25), both fetched directly.
+- **Publication / update date:** 2025 (report published ~February 2025 per The New Stack: "Last month, GitClear published an analysis…")
+- **Access date:** 2026-11-14
+- **Source type:** industry report (vendor research based on GitClear's longitudinal static analysis of code changes)
+- **Research questions addressed:** RQ5 (quality risks of AI-generated/assisted code)
+- **Original summary (own words):** GitClear's 2025 report analyzes a large longitudinal dataset of code changes to assess whether AI coding assistants are degrading code quality. Its central story is that refactoring signals are collapsing while duplication is rising: "moved"/refactored lines have fallen sharply since 2020–2021 while copy/pasted and duplicated lines have climbed, and 2024 was the first year in which introduction of repeated code exceeded refactoring activity. GitClear attributes the trend to AI assistants and projects the pattern continuing through 2025, warning of long-term maintainability damage.
+- **Relevant findings:** (as reported in fetched secondary coverage)
+  - Dataset: 211 million lines of code (changed lines) analyzed, covering 2020 through 2024.
+  - Refactoring ("moved code") share of changes: 24.1% in 2020 → 9.5% in 2024 (HackerNoon); The New Stack frames it as "from 24% to below 10%" since 2021.
+  - Copy/pasted (duplicated) lines share: 8.3% in 2020 → 12.3% in 2024, "a 48% relative increase" (HackerNoon); The New Stack says "from below 10% to almost 15%."
+  - 2024 was "the first year when the introduction of repeated code is greater than refactoring activity" (The New Stack).
+  - "During 2024, the occurrence of duplicated code blocks rose eightfold compared to previous years" (HackerNoon).
+  - GitClear projection (via The New Stack): 2025 rate of change "almost double the pre-AI (2021) number"; refactoring predicted to shrink to "little more than 3% of code changes" in 2025.
+  - Note: the widely cited "~4x growth in code clones" headline could NOT be verified from fetched content (canonical page inaccessible); fetched secondary sources instead report an "eightfold" rise in duplicated code blocks during 2024.
+- **Population / methodology / tools:** longitudinal static analysis of committed code changes across (per GitClear's methodology) large codebases; changes classified by type (moved/refactored, copy/pasted, updated, deleted); trends tracked 2020–2024 and projected to 2025. Exact repo population/weighting not verifiable from the fetched pages.
+- **Limitations / conflicts of interest / applicability:** Correlational — the report attributes duplication growth to AI assistants but cannot isolate AI from other industry changes. Vendor research: GitClear sells code-quality tooling built on this analysis, creating incentive to publicize alarming trends. Dataset composition, repo selection, and AI-tool attribution methodology are not verifiable from the fetched pages. Two secondary sources disagree on the copy/paste share endpoint (12.3% vs "almost 15%"), so exact figures carry extra uncertainty.
+- **Candidate claims supported:**
+  - **observed** (reported dataset trends): duplication rising, refactoring falling across 2020–2024, with 2024 the first year repeated-code additions exceeded refactoring.
+  - **forecast:** GitClear's 2025 projections (rate of change ~2x 2021; refactoring ~3%).
+  - **opinion/attribution:** that AI coding assistants are the primary driver of these trends is asserted, not demonstrated causally.
+- **Implications for learners:** Copy/paste-then-edit is the path of least resistance with assistants, but duplicated code multiplies future bug surface and review cost. Learners should treat refactoring and reuse (extract function, single definition) as a required part of AI-assisted workflows, not optional polish, and use review tools that flag clones.
+- **Confidence:** medium — core dataset size and trend direction are consistent across two independent secondary sources, but the canonical GitClear page was not directly accessible, and two fetched figures conflict on the copy/paste endpoint; the "~4x clones" headline remains unverified.
+- **Access status:** partial (canonical page 403/Cloudflare-blocked; findings reconstructed from two fetched secondary reports quoting the report)

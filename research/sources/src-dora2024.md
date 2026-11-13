@@ -1,0 +1,30 @@
+# src-dora2024
+- **Title:** Accelerate State of DevOps Report 2024
+- **Author / Organization:** DORA (DevOps Research and Assessment) — a program run by Google Cloud; report published by Google Cloud with gold sponsors
+- **Canonical URL:** https://dora.dev/research/2024/dora-report/ (full PDF: https://dora.dev/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf, version v.2024.3)
+- **Publication / update date:** 2024 (10th annual DORA report); landing page "Last updated: April 13, 2026"
+- **Access date:** 2026-11-14
+- **Source type:** industry report (annual survey research program run by Google Cloud)
+- **Research questions addressed:** RQ4 (AI and productivity/delivery performance) and RQ7 (practitioner usage and trust)
+- **Original summary (own words):** DORA's 2024 survey (~3,000 professionals this year; ~39,000 cumulative over a decade) plus qualitative interviews finds AI use is nearly ubiquitous but its effects split: individual-level benefits (productivity, flow, job satisfaction, code quality, documentation quality) coexist with worse software delivery throughput and stability as AI adoption rises. Trust in AI-generated code is widespread but shallow — most respondents trust it only somewhat and expect to tweak outputs. All AI effects are modeled associations from survey data, not experiments.
+- **Relevant findings:**
+  - Sample: "This year, nearly 3,000 working professionals" took the survey; "We've heard from roughly 39,000 professionals" over a decade. (The often-cited "n≈39,000" is the cumulative 10-year figure, not the 2024 sample.)
+  - "75.9% of respondents are relying, at least in part, on AI in one or more of their daily professional responsibilities."
+  - Most common AI use cases among those whose job includes the task: writing code 74.9%, summarizing information 71.2%.
+  - Trust in AI-generated code: 87.9% reported some level of trust, but trust "generally low, with 39.2% reporting little (27.3%) or no trust (11.9%) at all." Executive summary repeats: "39.2% of respondents reported having little or no trust in AI."
+  - "A 25% increase in AI adoption is associated with a… 7.5% increase in documentation quality, 3.4% increase in code quality, 3.1% increase in code review speed, 1.3% increase in approval speed, 1.8% decrease in code complexity."
+  - Delivery impact: "AI adoption is negatively impacting software delivery performance… an estimated 1.5% reduction [in delivery throughput] for every 25% increase in AI adoption… the negative impact on delivery stability is larger (an estimated 7.2% reduction…)." (Error bars = 89% uncertainty intervals.)
+  - Organization-level: +2.3% organizational performance and +1.4% team performance per 25% AI-adoption increase; product performance (+0.2%) "does not seem to have an obvious association."
+  - Executive summary: "AI adoption significantly increases individual productivity, flow, and job satisfaction. However, it also negatively impacts software delivery stability and throughput."
+  - Learning effects: only 5% reported AI inhibited their ability to write code; 67% reported at least some improvement in their ability to write code from AI-assisted tools; ~10% observed "extreme" improvements.
+  - Counterintuitive: individuals report a decrease in time spent doing valuable work as AI adoption increases ("vacuum hypothesis" explored qualitatively).
+- **Population / methodology / tools:** annual worldwide survey of technical/adjacent professionals (nearly 3,000 in 2024) + in-depth interviews; structural modeling of survey factors; estimates reported as % change per 25% AI-adoption increase with 89% uncertainty intervals; cluster analysis for delivery-performance levels. Productivity measured as individual self-perception ("the extent to which an individual feels effective and efficient in their work").
+- **Limitations / conflicts of interest / applicability:** Correlational — DORA itself says findings are associations; no causal claim possible, and the report notes the micro-to-macro "inferential leap" is difficult and noisy. Self-reported perceptions. Vendor context: published by Google Cloud (cloud/platform/AI vendor) with sponsors, though DORA publishes methodology and data openly. Wide uncertainty intervals on delivery estimates. Team/org-level findings, not controlled task-level measurement.
+- **Candidate claims supported:**
+  - **survey:** ~76% of practitioners relied on AI at least partly; trust in AI code is high-but-shallow (39.2% little/no trust).
+  - **survey (modeled association, not causal):** +25% AI adoption ↔ +3.4% code quality, +7.5% documentation quality, −1.5% delivery throughput, −7.2% delivery stability.
+  - **survey:** 67% report AI improved their ability to write code.
+  - **recommendation:** keep fundamentals (small batch sizes, robust testing); iterate experimentally; adopt AI with an experimental mindset.
+- **Implications for learners:** Using AI can raise individual perceived productivity while slowing team-level delivery if quality gates slip — learners should pair AI use with testing, review, and small changes. Low-but-nonzero trust is the norm: treat AI output as a draft to verify, matching what 39.2% little/no-trust respondents effectively practice.
+- **Confidence:** high — full report PDF fetched and quoted directly; figures are as printed in v.2024.3. Resolved a common misreading (39,000 is the decade-cumulative sample; 2024 survey ≈ 3,000).
+- **Access status:** full (landing page + complete PDF text-extracted)

@@ -1,0 +1,21 @@
+# src-postgres-manual
+- **Title:** Part I. Tutorial (from the PostgreSQL Documentation)
+- **Author / Organization:** The PostgreSQL Global Development Group (PostgreSQL Documentation)
+- **Canonical URL:** https://www.postgresql.org/docs/current/tutorial.html
+- **Publication / update date:** documentation build shown: "PostgreSQL 18.7 Documentation"; site news line as served: "November 12, 2026: PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released!"; version banner lists Supported Versions: Current (18) / 17 / 16 / 15 / 14, Development Versions: 19 / devel
+- **Access date:** 2026-11-14
+- **Source type:** official documentation
+- **Research questions addressed:** RQ1 (durable foundations: relational concepts and SQL) primarily; RQ8 secondarily (hands-on database practice norms: reading official docs, reporting documentation issues).
+- **Original summary (own words):** The PostgreSQL tutorial is the official hands-on introduction, aiming to teach PostgreSQL, relational database concepts, and the SQL language with no assumed programming experience, while explicitly not attempting comprehensive coverage. It is organized into three chapters — Getting Started, The SQL Language, and Advanced Features — and the intro directs readers onward to Part II (SQL language), Part III (installation/administration), and Part IV (application development). The page also demonstrates the docset's maintenance conventions (supported-version banner, correction-submission form).
+- **Relevant content for curriculum:**
+  - Chapter 1 "Getting Started": 1.1 Installation; 1.2 Architectural Fundamentals; 1.3 Creating a Database; 1.4 Accessing a Database.
+  - Chapter 2 "The SQL Language": 2.1 Introduction; 2.2 Concepts; 2.3 Creating a New Table; 2.4 Populating a Table With Rows; 2.5 Querying a Table; 2.6 Joins Between Tables; 2.7 Aggregate Functions; 2.8 Updates; 2.9 Deletions.
+  - Chapter 3 "Advanced Features": 3.1 Introduction; 3.2 Views; 3.3 Foreign Keys; 3.4 Transactions; 3.5 Window Functions; 3.6 Inheritance; 3.7 Conclusion.
+  - Onward pointers from the intro: Part II (better understanding of SQL), Part III (for those who provision and manage their own PostgreSQL installation), Part IV (developing applications with PostgreSQL).
+  - Maintenance signals: "Supported Versions" banner (Current = 18; also 17/16/15/14; dev 19/devel); "Submit correction" form ("If you see anything in the documentation that is not correct... use this form to report a documentation issue").
+- **Applicability:** cite from SQL fundamentals topic pages (tables, SELECT/queries, joins, aggregates, updates/deletes); cite from relational-modeling pages (foreign keys, views, transactions, window functions); cite from environment-setup pages (installing PostgreSQL, creating/ accessing a database); cite as the canonical example of official database documentation.
+- **Limitations:** Version currency: docs move with `current`; deep-link subsections resolve to whatever version is current at read time (currently PostgreSQL 18.x) — pin a versioned URL (e.g., /docs/18/tutorial.html) if stable citation is needed. The tutorial itself states it "makes no attempt to be a comprehensive treatment" — normalization, indexing, and performance live in later parts/reference, not here.
+- **Candidate claims supported:** recommendation — use this tutorial as the first hands-on SQL/relational pathway and Part II for deeper SQL; reference — official docs are the authority for PostgreSQL behavior.
+- **Implications for learners:** Learners can complete Chapters 1–3 to go from installation to transactions/window functions with a real database; they should also learn the habit of checking the version banner and submitting doc corrections — a real professional practice modeled by the docs themselves.
+- **Confidence:** high — the page was fetched in full; chapter/section titles and the version banner were read directly from the served HTML.
+- **Access status:** full

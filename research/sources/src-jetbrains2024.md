@@ -1,0 +1,34 @@
+# src-jetbrains2024
+- **Title:** JetBrains State of Developer Ecosystem Report 2024 (with State of Developer Ecosystem 2025 as newer companion edition)
+- **Author / Organization:** JetBrains s.r.o.
+- **Canonical URL:** https://www.jetbrains.com/lp/devecosystem-2024/ (2025 edition: https://devecosystem-2025.jetbrains.com/ , AI section https://devecosystem-2025.jetbrains.com/artificial-intelligence)
+- **Publication / update date:** 2024 edition published 2024; 2025 edition published late 2025 (subpages reference posts dated Oct 2025–Feb 2026)
+- **Access date:** 2026-11-14
+- **Source type:** developer survey
+- **Research questions addressed:** RQ7 (practitioner AI usage/trust) and RQ4 (productivity perceptions); secondary RQ6 signal (employer AI policy, AI-proficiency expectations)
+- **Original summary (own words):** JetBrains' annual developer survey shows AI coding tools moving from experiment to routine: in 2024 half of respondents already used ChatGPT regularly, and by 2025 the vast majority use AI for coding weekly-level activity, with two-thirds using a dedicated assistant or AI editor. Developers expect AI proficiency to become a job requirement, but they delegate boilerplate — not complex logic — and companies remain mostly in pilot/partial rollouts rather than deep integration.
+- **Relevant findings:**
+  - **2024 edition respondents:** "Based on the responses from 23,262 developers worldwide" (2024).
+  - **2024 AI tool usage:** "69% of developers have tried, and 49% regularly use, ChatGPT for coding and other development-related activities. The second most popular AI tool for developers, GitHub Copilot, has been tried by 40% and is regularly used by 26% of our respondents." Google Gemini tried 17%/regular 7%; JetBrains AI Assistant 14%/5%; CodeGPT plugin in VS Code 9%/3%.
+  - **2024 company AI policy:** allowed for all projects 29%, allowed only for some projects 26%, no such policy 25%, prohibited for all projects 11%, don't know 6%, other 3%. "The majority of companies (almost 80%), either allow the use of third-party AI tools to varying extent or have no established policy... This suggests that the fear of AI is gradually fading."
+  - **2024 benefits (self-reported):** less time searching for information 67%, faster coding and development 58%, faster completion of repetitive tasks 57%, increased productivity 57%, faster learning of new technologies 45%, less mental effort 39%, better coding experience 36%, better code quality 23%, none 1%.
+  - **2024 time saved per week (self-estimate):** 1–2h 32%, 2–4h 27%, <1h 14%, 4–8h 13%, 8h+ 9%, no time saved 4%.
+  - **2025 edition respondents:** "based on the responses of 24,534 people across the globe" (2025).
+  - **2025 AI usage:** 85% regularly use AI tools for coding and development; 62% use at least one AI coding assistant, agent, or code editor. Tools: ChatGPT 41%, GitHub Copilot 30%, Cursor 13%, JetBrains AI Assistant 13%, DeepSeek 10%, Gemini 9%, Claude web 8%, Junie 5%, Claude Code 4%, TONGYI Lingma 4%.
+  - **2025 expectations:** "68% of developers anticipate AI proficiency will become a job requirement."
+  - **2025 emotions toward AI's increasing role:** hopeful 29%, excited 22%, uncertain 18%, anxious 17%, fearful 6%, indifferent 5%.
+  - **2025 delegation pattern:** most likely delegated — boilerplate/repetitive code, searching for info, converting code, code comments/docs, summarizing changes; least likely — application logic code, terminal/CLI actions, debugging, understanding code (i.e., developers keep control of complex tasks).
+  - **2025 concerns:** quality of generated code 23%, limited understanding of complex code/logic 18%, privacy & security 13%, negative effect on my skills 11%, lack of context awareness 10%, job security 9%; only 1% express no concern.
+  - **2025 time savings:** among AI users, 88% save more than 1 hour/week; 19% save 8+ hours/week. Benefits: increased productivity 74%, faster repetitive tasks 73%, less time searching 72%, faster coding 69%, faster learning 65%.
+  - **2025 company AI integration stages:** no adoption 9%, exploratory 21%, pilot 27%, partial adoption 30%, extensive adoption 14% ("AI is being tested nearly everywhere, but the leap to full integration remains rare").
+  - **Iran note:** No Iran-specific figures visible in fetched 2024/2025 page text.
+- **Population / methodology / tools:** 2024: n = 23,262 developers worldwide; 2025: n = 24,534 respondents globally; annual online survey recruited via JetBrains channels and dev community; full raw data published as download. JetBrains audience skews toward users of JetBrains IDEs and European/global online developer communities; self-report throughout. Landing pages are highlights; per-question raw data lives in downloadable files (not fetched).
+- **Limitations / conflicts of interest / applicability:** JetBrains sells AI products (AI Assistant, Junie) — direct commercial interest in AI adoption narrative ("promising productivity booster"); benefits and time savings are self-perceived estimates, not measured; landing pages show only highlights (2024 trust-by-activity breakdowns like code generation vs. writing tests are in the full report, not the fetched page); global scope but JetBrains-user skew.
+- **Candidate claims supported:**
+  - observed (survey): 2024 — 49% regularly use ChatGPT, 26% Copilot (n=23,262); 2025 — 85% regularly use AI tools for coding (n=24,534).
+  - forecast (respondent-expectation): 68% of developers anticipate AI proficiency will become a job requirement (2025).
+  - survey: developers delegate boilerplate to AI but keep logic/debugging/understanding in human hands (2025).
+  - survey: company AI integration is mostly pilot/partial (only 14% extensive adoption, 2025).
+- **Implications for learners:** AI proficiency is expected to become an explicit job requirement (68% anticipate this) — learners should master AI-assisted boilerplate/search/repetition workflows, but the human-controlled territory (debugging, application logic, code comprehension) is exactly where employable expertise should be built.
+- **Confidence:** high for quoted figures (fetched verbatim from official JetBrains pages); medium for 2025 edition currency (site copyright shows 2026, sub-posts through Feb 2026).
+- **Access status:** partial (2024 landing-page highlights only; 2024 full report and 2025 raw data not downloaded; 2025 AI section fetched fully after lazy-render)

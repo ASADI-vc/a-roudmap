@@ -1,0 +1,26 @@
+# src-roediger2006
+- **Title:** Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention
+- **Author / Organization:** Henry L. Roediger, III & Jeffrey D. Karpicke (Washington University in St. Louis), Psychological Science 17(3):249–255
+- **Canonical URL:** https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x (full text read from open PDF mirror: https://gwern.net/doc/psychology/spaced-repetition/2006-roediger.pdf)
+- **Publication / update date:** 2006-03 (Crossref issued 2006-03; journal vol 17(3), pp. 249–255)
+- **Access date:** 2026-11-14
+- **Source type:** peer-reviewed study (two experiments)
+- **Research questions addressed:** RQ3 (which study techniques demonstrably work — testing vs restudying); supports RQ2 indirectly (novices overestimate the value of restudying)
+- **Original summary (own words):** Two experiments compared restudying with taking free-recall tests on short prose passages about general science topics, with final retention tests after 5 minutes, 2 days, or 1 week, and no feedback on tests. Restudying won immediately (5-minute test), but testing produced substantially better retention at 2 days and 1 week. A second experiment manipulated repeated testing (SSSS vs SSST vs STTT schedules) and showed that retention after 1 week tracked the number of prior tests, and proportional forgetting was greatest for the restudy-only group. Repeated studying inflated students' confidence without improving delayed retention — a metacognitive illusion relevant to how learners allocate study time.
+- **Relevant findings:**
+  - Design: students studied short prose passages on general scientific topics; Exp 1 compared additional studying vs an initial test; final free-recall test at 5 min, 2 days, or 1 week; tests given without feedback (Method/Experiment 1).
+  - Exp 1 results: 5-min — restudying better than testing (81% vs 75%); 2 days — tested 68% vs restudy 54%; 1 week — tested 56% vs restudy 42% (Results; reported with t(39) statistics).
+  - Exp 2 design: study once + three tests (STTT), study three times + one test (SSST), or study four times (SSSS) (Experiment 2).
+  - Exp 2 results: 5-min test — SSSS 83% > SSST 78% > STTT 71%; 1-week test — STTT 61% > SSST 56% > SSSS 40% (Results).
+  - Proportional forgetting (Exp 2): SSSS 52% vs SSST 28% vs STTT 14% (Results/Figure 3 description).
+  - Key sentence (Abstract/Results): "repeated studying increased students' confidence in their ability to remember the material" while "prior testing produced substantially greater retention than studying" on delayed tests; "Testing is a powerful means of improving learning, not just assessing it."
+- **Population / methodology / tools:** Washington University in St. Louis undergraduates; within-lab experiments with prose passages; free-recall tests; three retention intervals; no feedback; group sizes consistent with 40 per comparison (t(39)).
+- **Limitations / conflicts of interest / applicability:** Single-session lab recall of short expository passages, not classroom coding skills; free-recall (not application/transfer); no feedback condition; short delays max 1 week. Applicability to programming learning is by analogy (retrieval practice helps durable retention), not direct measurement of coding performance.
+- **Candidate claims supported:**
+  - causal — taking a memory test improves long-term retention relative to equivalent restudying (experimental manipulation; advantage emerges at 2 days and 1 week).
+  - observed — restudying outperforms testing only on immediate tests (5 min: 81% vs 75% in Exp 1).
+  - observed — repeated restudying inflates confidence more than it improves delayed retention.
+  - causal — more tests (with the same total study exposure patterns tested) reduced proportional forgetting (STTT 14% vs SSSS 52%).
+- **Implications for learners:** Learners should self-test rather than re-read to retain fundamentals over weeks; immediate performance gains from cramming/rereading mislead because they reverse over days.
+- **Confidence:** high — the full article PDF was fetched and the percentages above were read directly from its Results section.
+- **Access status:** full

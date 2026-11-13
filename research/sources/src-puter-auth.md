@@ -1,0 +1,23 @@
+# src-puter-auth
+
+- **Title:** puter.auth.signIn() — Puter.js v2 documentation
+- **Author / Organization:** Puter Technologies Inc. (official documentation)
+- **Canonical URL:** https://docs.puter.com/Auth/signIn/
+- **Publication / update date:** unknown
+- **Access date:** 2026-11-14
+- **Source type:** official vendor API documentation
+- **Research questions addressed:** RQ9 (auth flow for per-user AI access)
+- **Original summary (own words):** `puter.auth.signIn()` opens a sign-in popup and returns a Promise resolving to a `SignInResult`. It must be invoked from a user action (popup rule). It accepts optional `options` (`attempt_temp_user_creation`, `request_auth`). Documented rejection/error cases: `popup_blocked` (browser blocked the popup), `auth_window_closed` (user closed the sign-in window or cancelled the consent dialog without completing sign-in), `not_available_in_app`, and `unsupported_origin` (page has no origin the browser will vouch for). The standard loading pattern is the script tag `<script src="https://js.puter.com/v2/"></script>`. Related API surface (navigation only, not detailed on this page): `puter.auth.isSignedIn()`, `puter.auth.signOut()`, `puter.auth.getUser()`.
+- **Relevant findings:**
+  - Syntax: `puter.auth.signIn()` / `puter.auth.signIn(options)`.
+  - "Because signIn() opens a popup window, it must be called from a user action."
+  - Error codes exactly as documented: `popup_blocked`, `auth_window_closed`, `not_available_in_app`, `unsupported_origin`.
+  - Cancellation wording: "The user closed the sign-in window (or cancelled the consent dialog) without completing the sign-in process."
+  - SDK loaded via `https://js.puter.com/v2/` script tag (from the page's example).
+- **Population / methodology / tools:** N/A.
+- **Limitations / conflicts of interest / applicability:** Vendor documentation; popup-based flows can be blocked by browsers/WebView configurations — apps must handle `popup_blocked` gracefully.
+- **Candidate claims supported:**
+  - Recommendation: gate AI features behind explicit user-initiated sign-in; handle cancellation and popup-blocked states without retry loops (recommendation).
+- **Implications for learners:** Users keep their own account; cancelling sign-in never triggers billable calls.
+- **Confidence:** high — primary vendor documentation, directly fetched.
+- **Access status:** full

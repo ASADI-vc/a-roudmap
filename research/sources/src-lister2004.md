@@ -1,0 +1,23 @@
+# src-lister2004
+
+- **Title:** A Multi-National Study of Reading and Tracing Skills in Novice Programmers (ITiCSE 2004 Working Group report)
+- **Author / Organization:** Raymond Lister, Elizabeth S. Adams, Sue Fitzgerald, William Fone, John Hamer, Morten Lindholm, Robert McCartney, Jan Erik Moström, Kate Sanders, et al.
+- **Canonical URL:** https://dl.acm.org/doi/10.1145/1041624.1041673 (open PDF mirror: https://www.cs.auckland.ac.nz/~j-hamer/ITiCSE04-wg.pdf)
+- **Publication / update date:** 2004 (ITiCSE 2004 Working Group Reports / ACM SIGCSE Bulletin)
+- **Access date:** 2026-11-14
+- **Source type:** peer-reviewed multi-institutional empirical study (computing-education research)
+- **Research questions addressed:** RQ2 (how novices learn programming; where they actually fail)
+- **Original summary (own words):** Building on the 2001 "McCracken Group" finding that most students could not build a working program at the end of CS1, this working group tested whether the failure stems from problem-solving/plan-composition deficits or from something more basic: not being able to *read and trace* code. They gave novices a twelve-question multiple-choice instrument in seven countries, testing (a) predicting the outcome of executing short code and (b) choosing the correct completion of near-complete code. Many students were weak at both, especially the completion task — evidence that a large share of novices lack even the tracing/comprehension skills that are prerequisites for writing and problem-solving, i.e., "fragile grasp."
+- **Relevant findings:**
+  - Abstract (verbatim): the study tested students from "seven countries, in two ways… Many students were weak at these tasks, especially the latter task, suggesting that such students have a fragile grasp of skills that are a prerequisite for problem-solving."
+  - Scale: "941 students contributed data to this part of the study, but of those students only 556 students were given all twelve" questions (§3); 12-question MCQ instrument; students annotated confidence.
+  - Performance gaps: on explaining a function (Q2), "approximately 90% of students in the first" quartile were correct vs "30% of students in the bottom quartile" (§3.2 area); individual questions ranged widely (one answered correctly by "65% of all students", another "by 51% of all") — consistent across-institution misconceptions were identified (§4).
+  - Implication drawn by the authors: tracing/reading ability develops before, and is a precondition for, reliable code writing; instruction should explicitly teach reading and tracing.
+- **Population / methodology / tools:** 941 novices (556 full data) across multiple institutions in seven countries (US, UK, Australia, New Zealand, Denmark, and others); MCQ + confidence annotations; quartile analysis.
+- **Limitations / conflicts of interest / applicability:** 2004 cohort, pre-AI era, mainly Java; MCQ format constrains what "tracing skill" means; still the standard multi-national baseline for novice comprehension deficits.
+- **Candidate claims supported:**
+  - Observed: a large fraction of end-of-CS1 students cannot reliably trace or explain short programs (multi-country sample).
+  - Recommendation: teach code reading/tracing explicitly before/alongside code writing (authors' implication).
+- **Implications for learners:** If AI can write code for you, the remaining scarce skill is judging what the code does — reading and tracing are foundational, not optional.
+- **Confidence:** high — full-text PDF fetched and read; figures quoted from visible text.
+- **Access status:** full

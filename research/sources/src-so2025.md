@@ -1,0 +1,30 @@
+# src-so2025
+- **Title:** 2025 Stack Overflow Developer Survey
+- **Author / Organization:** Stack Overflow (Stack Exchange Inc.)
+- **Canonical URL:** https://survey.stackoverflow.co/2025/
+- **Publication / update date:** Published July 2025 (survey fielded May 29–June 23, 2025 per methodology page)
+- **Access date:** 2026-11-14
+- **Source type:** developer survey
+- **Research questions addressed:** RQ7 (practitioner AI usage/trust) and RQ4 (productivity perceptions); secondary RQ6 context (who is in the developer population)
+- **Original summary (own words):** Stack Overflow's 15th annual survey of developers shows AI tool use is near-universal and growing year over year, yet sentiment has cooled: more developers actively distrust AI accuracy than trust it, and the single biggest frustration is "almost right" AI output that requires debugging. AI agents remain niche: a majority do not use them, and roughly 38% have no plans to.
+- **Relevant findings:**
+  - **Total respondents:** "49,009 responses from 177 countries are used in these survey results" (methodology page). Landing page says "over 49,000+ responses from 177 countries across 62 questions focused on 314 different technologies."
+  - **AI adoption:** "84% of respondents are using or planning to use AI tools in their development process, an increase over last year (76%). This year we can see 51% of professional developers use AI tools daily." Breakdown: use AI tools daily 47.1%, weekly 17.7%, monthly/infrequently 13.7%, no but plan to soon 5.3%, no and don't plan to 16.2% (all respondents, global, 2025).
+  - **Trust in accuracy:** "More developers actively distrust the accuracy of AI tools (46%) than trust it (33%), and only a fraction (3%) report 'highly trusting' the output." Item percentages: highly trust 3.1%, somewhat trust 29.6%, somewhat distrust 26.1%, highly distrust 19.6%. "Experienced developers are the most cautious, with the lowest 'highly trust' rate (2.6%) and the highest 'highly distrust' rate (20%)."
+  - **Sentiment:** Positive sentiment to AI tools decreased in 2025 — "70%+ in 2023 and 2024 to just 60% this year." Item percentages: very favorable 22.9%, favorable 36.8%, indifferent 17.6%, unsure 2.3%, unfavorable 10.8%, very unfavorable 9.6%. "Professionals show a higher overall favorable sentiment (61%) than those learning to code (53%)."
+  - **Frustrations:** "66% of developers are frustrated with AI solutions that are almost right" — "AI solutions that are almost right, but not quite" 66%; "Debugging AI-generated code is more time-consuming" 45.2%; "I've become less confident in my own problem-solving" 20%; only 4% "haven't encountered any problems."
+  - **AI agents:** daily 14.1%, weekly 9%, monthly/infrequent 7.8%, plan to 17.4%, use AI only in copilot/autocomplete mode 13.8%, no and don't plan to 37.9%. "A majority of developers (52%) either don't use agents or stick to simpler AI tools."
+  - **Agent-user productivity perception:** ~70% of agent users agree agents "reduced the time spent on specific development tasks"; 69% agree agents "increased productivity"; only 17% agree agents "improved collaboration within my team" (lowest-rated impact).
+  - **Top tools (used in past year):** OpenAI GPT 81.4%, Claude Sonnet 42.8%, Gemini Flash 35.3%, OpenAI Reasoning 34.6%, OpenAI Image 26.6%. Claude Sonnet is the most admired AI model (61.2% admired).
+  - **Country distribution:** USA 20.4%, Germany 8.6%, India 7.2%, UK 5.8%, France 4% (top-reporting countries).
+  - **Iran note:** No mention of Iran found in the landing page or methodology text fetched on 2026-11-14; not visible in the sections accessed.
+- **Population / methodology / tools:** n = 49,009 used for analysis (from >49K responses; ~15K excluded via qualifier questions); 177 countries; fielded May 29–June 23, 2025; recruited via Stack Overflow-owned channels (onsite messaging, blog, email/newsletter, banner ads, social) plus a Reddit ad campaign (<2% of responses). Self-selected, English-language-adjacent audience skewed toward Stack Overflow users; top countries US/Germany/India. Multi-select questions displayed as % of unique responses this year.
+- **Limitations / conflicts of interest / applicability:** Self-reported perceptions, not measured productivity; Stack Overflow has strong interest in positioning verified human knowledge (e.g., "human-verified" framing for its own Q&A traffic); sampling skews to highly engaged Stack Overflow users in Western/English-speaking markets; aggregate percentages mix professionals and learners; no Iran-specific breakdown visible in accessed pages. Global scope but not uniform geographic weighting.
+- **Candidate claims supported:**
+  - observed (survey): 84% of developers use or plan to use AI tools (49,009 responses, 177 countries, 2025).
+  - survey: 46% of developers distrust AI accuracy vs 33% who trust it; only 3.1% highly trust (2025).
+  - survey: favorable sentiment toward AI tools fell from 70%+ (2023–24) to ~60% (2025).
+  - observed (survey): 66% cite "almost right" AI output as top frustration; agents still niche (52% not using).
+- **Implications for learners:** High AI-tool fluency is table stakes (84% use/planned), but trust and verification skills are the differentiator — employers-adjacent signal is skepticism: experienced developers trust AI least and demand human verification; learners should train debugging and review of AI output, not just prompting.
+- **Confidence:** high — primary survey data fetched directly from the official survey site; all figures quoted verbatim from fetched content.
+- **Access status:** full (landing page highlights + methodology; per-question drill-down pages not individually opened)

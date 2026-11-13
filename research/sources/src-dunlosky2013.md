@@ -1,0 +1,25 @@
+# src-dunlosky2013
+- **Title:** Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology
+- **Author / Organization:** John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan, Daniel T. Willingham (Psychological Science in the Public Interest, 14(1):4–58)
+- **Canonical URL:** https://journals.sagepub.com/doi/10.1177/1529100612453266 (full text read from an open PDF mirror: https://gwern.net/doc/psychology/spaced-repetition/2013-dunlosky.pdf)
+- **Publication / update date:** 2013-01 (journal issue 14(1); Crossref "published" = 2013-01; copyright line "© The Author(s) 2013" seen in PDF)
+- **Access date:** 2026-11-14
+- **Source type:** meta-analysis / systematic review (monograph review of 10 learning techniques)
+- **Research questions addressed:** RQ3 (which study techniques demonstrably work); indirectly informs RQ2 (what novices should do when studying)
+- **Original summary (own words):** The monograph evaluates 10 student-implementable learning techniques — elaborative interrogation, self-explanation, summarization, highlighting/underlining, keyword mnemonic, imagery for text, rereading, practice testing, distributed practice, and interleaved practice. Ratings rest on how well benefits generalize across four variable categories: learning conditions, student characteristics, materials, and criterion tasks. Only practice testing and distributed practice earn HIGH utility; three techniques (elaborative interrogation, self-explanation, interleaved practice) earn MODERATE utility because evidence for their efficacy, though promising, is limited; five techniques — summarization, highlighting, keyword mnemonic, imagery for text, rereading — earn LOW utility. The authors argue rereading's popularity (most commonly reported technique) is misplaced and recommend replacing it with practice testing and spaced practice.
+- **Relevant findings:**
+  - Ten-technique list and rating basis: "we evaluated whether their benefits generalize across four categories of variables: learning conditions, student characteristics, materials, and criterion tasks" (Table 1 context / Introduction).
+  - HIGH utility: "Practice testing and distributed practice received high utility assessments because they benefit learners of different ages and abilities and have been shown to boost students' performance across many criterion tasks and even in educational contexts" (p. 5 / opening summary).
+  - MODERATE utility: "Elaborative interrogation, self-explanation, and interleaved practice received moderate utility assessments... they fell short of a high utility assessment because the evidence for their efficacy is limited" (opening summary).
+  - LOW utility: "summarization, highlighting, the keyword mnemonic, imagery use for text learning, and rereading" identified as "low utility assessment" (opening summary); rereading: "rereading as having low utility" with "no experimental research has assessed its impact on learning in educational contexts" (§7.3).
+  - Technique selection criteria: student-implementable without assistance, sufficient empirical evidence, frequently-used techniques included for comparison (Introduction).
+- **Population / methodology / tools:** Literature review (systematic, exhaustive per-technique reviews supplemented by newer research) of laboratory and classroom studies across ages and subject domains; no new empirical data; utility ratings assigned on generalizability and durability criteria.
+- **Limitations / conflicts of interest / applicability:** Ratings depend on available evidence quality — "moderate"/"low" partly reflect thinner literature, not proven harm; several low-utility techniques were understudied in authentic classrooms (explicitly noted for rereading). Authors are cognitive psychologists with no commercial interest in the techniques. Applicability: strongest for durable self-study habits in conceptual/factual learning; coding-specific evidence is not this paper's focus.
+- **Candidate claims supported:**
+  - observed — practice testing and distributed practice are the only two of 10 techniques rated HIGH utility for generalizability and durability.
+  - observed — highlighting, rereading, and summarization are rated LOW utility as commonly used study techniques.
+  - recommendation — students should replace rereading/highlighting with practice testing and spaced practice.
+  - opinion — better teaching of self-regulated learning techniques could offset systemic educational shortfalls (central premise).
+- **Implications for learners:** An AI-era engineering curriculum should hard-wire retrieval practice and spaced practice into coursework, treat re-reading/highlighting as low-yield, and use interleaving/elaboration as promising-but-secondary supports.
+- **Confidence:** high — full text of the actual monograph was fetched and the quoted rating passages were read directly in the PDF.
+- **Access status:** full

@@ -1,0 +1,584 @@
+     1→     1→Software Engineering Body of Knowledge (SWEBOK)
+     2→     2→IEEE.org
+     3→     3→IEEE CS Standards
+     4→     4→Career Center
+     5→     5→About Us
+     6→     6→Subscribe to Newsletter
+     7→     7→0
+     8→     8→Sign In
+     9→     9→IEEE-CS_LogoTM-orange
+    10→    10→MEMBERSHIP
+    11→    11→CONFERENCES
+    12→    12→PUBLICATIONS
+    13→    13→EDUCATION & CAREER
+    14→    14→VOLUNTEER
+    15→    15→ABOUT
+    16→    16→Join Us
+    17→    17→IEEE-CS_LogoTM-orange
+    18→    18→0
+    19→    19→Home
+    20→    20→/
+    21→    21→Education
+    22→    22→/
+    23→    23→Bodies Of Knowledge
+    24→    24→Home
+    25→    25→/
+    26→    26→Education
+    27→    27→/
+    28→    28→Bodies Of Knowledge
+    29→    29→Software Engineering Body of Knowledge (SWEBOK)
+    30→    30→DOWNLOAD
+    31→    31→Search this page
+    32→    32→Page Content:
+    33→    33→About SWEBoK
+    34→    34→Citation Information
+    35→    35→An Evolving Body of Knowledge
+    36→    36→Core Objectives For SWEBOK V4.0
+    37→    37→Who Benefits From the SWEBOK Framework?
+    38→    38→SWEBOK Overview
+    39→    39→List of KA Editors and Contributing Editors
+    40→    40→Volunteer
+    41→    41→FAQs
+    42→    42→What is SWEBOK?
+    43→    43→Why is there a SWEBOK guide?
+    44→    44→How is the SWEBOK guide developed?
+    45→    45→Who should use the SWEBOK guide?
+    46→    46→What do you use SWEBOK for?
+    47→    47→How do you define “generally accepted” knowledge?
+    48→    48→How do you determine what is “generally accepted” knowledge?
+    49→    49→Which publications and books discuss the SWEBOK guide?
+    50→    50→Consolidated References List of SWEBOK Guide V4.0
+    51→    51→Terms and Conditions
+    52→    52→About SWEBoK
+    53→    53→The Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), published by the IEEE Computer Society (IEEE CS), reflects the current state of generally accepted, consensus-driven knowledge derived from the interaction between software engineering theory and practice. Its 18 knowledge areas (KAs) summarize key concepts and include a reference list for detailed information.
+    54→    54→SWEBOK Guide V4.0 introduces new topics, updates existing ones, and retires outdated subjects. Agile and DevOps have been notably integrated into several KAs due to their widespread adoption since the previous edition. Additionally, three new knowledge areas—Software Architecture, Software Engineering Operations, and Software Security—have been added to enhance the foundational knowledge in software engineering. The new Guide also aims to better align related disciplines by reorganizing and renaming some content within different knowledge areas. The table of contents for Version 4 is below.
+    55→    55→The SWEBOK Guide serves multiple purposes:
+    56→    56→Defines the contents of the software engineering discipline;
+    57→    57→Promotes a consistent understanding of software engineering worldwide;
+    58→    58→Clarifies the boundaries of software engineering in relation to other disciplines;
+    59→    59→Provides a foundation for training materials and curriculum development;
+    60→    60→Supports certification and licensing of software engineers.
+    61→    61→Reflects current practices and integrates emerging technologies.
+    62→    62→SWEBOK V4.0
+    63→    63→is the latest version of the globally respected Guide to the Software Engineering Body of Knowledge. Designed as a dynamic, evolving document, the guide has been developed by leading experts, reviewed by professionals, and made available for public review and feedback, continuing its 20-year legacy as the most authoritative and trusted definition of the software engineering profession.
+    64→    64→The principles guiding the development of this project include:
+    65→    65→Transparency
+    66→    66→: The development process is fully documented and publicly accessible.
+    67→    67→Consensus-building
+    68→    68→: The process is designed to gradually build consensus among industry professionals, academic institutions, and standards-setting bodies.
+    69→    69→Wide distribution
+    70→    70→: The Guide will remain freely accessible in at least one format to ensure it reaches a broad audience.
+    71→    71→25 September 2025 Update
+    72→    72→: SWEBOK v4.0 document has been updated with some minor revisions. To clearly distinguish this updated release, it is now identified as SWEBOK v4.0a.To make sure you’re using the latest version, please download the updated document using the same form. Thank you for keeping current with SWEBOK.
+    73→    73→Download the Guide
+    74→    74→Citation Information
+    75→    75→Editor Hironori Washizaki, Waseda University Japan (IEEE Computer Society 2024 President-Elect, 2025 President)
+    76→    76→H. Washizaki, eds.,
+    77→    77→Guide to the Software Engineering Body of Knowledge (SWEBOK Guide), Version 4.0
+    78→    78→, IEEE Computer Society, 2024; www.swebok.org.
+    79→    79→An Evolving Body of Knowledge
+    80→    80→The committee responsible for the 2014 SWEBOK Guide recognized the need for future revisions and outlined a process for continuous updates. The reasons for this are:
+    81→    81→Evolving Practices
+    82→    82→: Software engineering practices are constantly changing due to the introduction of new tools, methods, and types of software. What was once considered experimental may now be accepted as standard practice. While the Guide emphasizes widely accepted, enduring practices, the software environment can shift dramatically due to changes in business and job requirements. For example, the importance of security in good software development has become increasingly clear in recent years. Economic factors can also influence which methods are recognized as best practices in software engineering.
+    83→    83→Emerging Viewpoints
+    84→    84→: Other IEEE Computer Society products, such as the Certified Software Development Professional (CSDP) exam and the Software Engineering 2004 curriculum guide, offer slightly different perspectives on the body of knowledge. It’s important to examine these differences and align SWEBOK Version 4 with them where appropriate. For instance, it would be logical to establish a core set of references that these products share. Comparing these efforts has also highlighted the need for new knowledge areas and revisions to existing ones.
+    85→    85→Expanding Knowledge
+    86→    86→: Since the first SWEBOK Guide was published in 2004, many of the books it cited have been updated, and new articles have been added to the body of knowledge. SWEBOK Version 4 reflects these changes.
+    87→    87→Learn a bit more about the evolution of SWEBOK through our webinars on SWEBOK Guide V4.0:
+    88→    88→https://waseda.box.com/v/swebok-webinar-opening
+    89→    89→.
+    90→    90→Introduction:
+    91→    91→Slides of Introduction
+    92→    92→,
+    93→    93→Introduction Recording
+    94→    94→Chapter 1:
+    95→    95→Software Requirements,
+    96→    96→Slides of Chapter 1
+    97→    97→,
+    98→    98→Chapter 1 Recording
+    99→    99→Chapter 2:
+   100→   100→Software Architecture.
+   101→   101→Slides of Chapter 2
+   102→   102→,
+   103→   103→Chapter 2 Recording
+   104→   104→Chapter 3:
+   105→   105→Software Design,
+   106→   106→Slides of Chapter 3
+   107→   107→,
+   108→   108→Chapter 3 Recording
+   109→   109→Chapter 4:
+   110→   110→Software Construction,
+   111→   111→Slides of Chapter 4
+   112→   112→,
+   113→   113→Chapter 4 Recording
+   114→   114→Chapter 5:
+   115→   115→Software Testing,
+   116→   116→Slides of Chapter 5
+   117→   117→,
+   118→   118→Chapter 5 Recording
+   119→   119→Chapter 6:
+   120→   120→Software Engineering Operations,
+   121→   121→Slides of Chapter 6
+   122→   122→,
+   123→   123→Chapter 6 Recording
+   124→   124→Chapter 7:
+   125→   125→Software Maintenance,
+   126→   126→Slides of Chapter 7
+   127→   127→,
+   128→   128→Chapter 7 Recording
+   129→   129→Chapter 8:
+   130→   130→Software Configuration Management,
+   131→   131→Slides of Chapter 8
+   132→   132→,
+   133→   133→Chapter 8 Recording
+   134→   134→Chapter 9:
+   135→   135→Software Engineering Management,
+   136→   136→Slides of Chapter 9
+   137→   137→,
+   138→   138→Chapter 9 Recording
+   139→   139→Chapter 10:
+   140→   140→Software Engineering Process,
+   141→   141→Slides of Chapter 10
+   142→   142→,
+   143→   143→Chapter 10 Recording
+   144→   144→Chapter 11:
+   145→   145→Software Engineering Models and Methods,
+   146→   146→Slides of Chapter 11
+   147→   147→,
+   148→   148→Chapter 11 Recording
+   149→   149→Chapter 12:
+   150→   150→Software Quality,
+   151→   151→Slides of Chapter 12
+   152→   152→,
+   153→   153→Chapter 12 Recording
+   154→   154→Chapter 13:
+   155→   155→Software Security,
+   156→   156→Slides of Chapter 13
+   157→   157→,
+   158→   158→Chapter 13 Recording
+   159→   159→Chapter 14:
+   160→   160→Software Engineering Professional Practice,
+   161→   161→Slides of Chapter 14
+   162→   162→,
+   163→   163→Chapter 14 Recording
+   164→   164→Chapter 15:
+   165→   165→Software Engineering Economics,
+   166→   166→Slides of Chapter 15
+   167→   167→,
+   168→   168→Chapter 15 Recording
+   169→   169→Chapter 16:
+   170→   170→Computing Foundations,
+   171→   171→Slides of Chapter 16
+   172→   172→,
+   173→   173→Chapter 16 Recording
+   174→   174→Chapter 17:
+   175→   175→Mathematical Foundations,
+   176→   176→Slides of Chapter 17
+   177→   177→,
+   178→   178→Chapter 17 Recording
+   179→   179→Chapter 18:
+   180→   180→Engineering Foundations,
+   181→   181→Slides of Chapter 18
+   182→   182→,
+   183→   183→Chapter 18 Recording
+   184→   184→Appendix B:
+   185→   185→Slides of IEEE and ISO/IEC Standards Supporting SWEBOK (Appendix B)
+   186→   186→,
+   187→   187→IEEE and ISO/IEC Standards Supporting SWEBOK (Appendix B) Recording
+   188→   188→Core Objectives For SWEBOK V4.0
+   189→   189→The main objectives of the SWEBOK project included:
+   190→   190→Promoting a consistent view of software engineering worldwide;
+   191→   191→Specifying the scope of, and clarifying the place of software engineering concerning other disciplines such as computer science, project management, computer engineering, and mathematics;
+   192→   192→Characterizing the contents of the software engineering discipline;
+   193→   193→Providing topical access to the Software Engineering Body of Knowledge;
+   194→   194→Providing a foundation for curriculum development and individual certification and licensing material
+   195→   195→Who Benefits From the SWEBOK Framework?
+   196→   196→The intended audience for the SWEBOK Guide includes:
+   197→   197→Public and Private Organizations:
+   198→   198→Those aiming to establish and promote a consistent understanding of software engineering within their operations, particularly when setting education and training standards, job classifications, and performance evaluation policies;
+   199→   199→Practicing Software Engineers:
+   200→   200→Individuals actively working in the field of software engineering who can use the Guide as a reference for best practices and professional development;
+   201→   201→Policymakers:
+   202→   202→Those involved in creating public policy related to software engineering, including the development of licensing rules and professional guidelines;
+   203→   203→Professional Societies:
+   204→   204→Organizations that define accreditation standards for university software engineering programs, as well as certification rules and guidelines for professionals in the field;
+   205→   205→Software Engineering Students:
+   206→   206→Individuals studying software engineering who can use the Guide to deepen their understanding of the discipline;
+   207→   207→Educators and Trainers:
+   208→   208→Those responsible for developing curricula and course content in software engineering programs
+   209→   209→SWEBOK Overview
+   210→   210→Consensus on a Core Body of Knowledge Is Crucial
+   211→   211→Despite the millions of software professionals worldwide and the ubiquitous presence of software in our society, software engineering has relatively recently reached the status of a legitimate engineering discipline and a recognized profession.
+   212→   212→In engineering, the accreditation of university programs and the licensing and certification of professionals are regarded as essential. These processes are vital for the continuous development of professionals and the overall enhancement of the profession’s standards. Establishing a core body of knowledge is fundamental to the creation and accreditation of university curricula, as well as the licensing and certification of professionals.
+   213→   213→Reaching a consensus on this core body of knowledge is a significant milestone in any discipline. The IEEE Computer Society has identified this as crucial for advancing software engineering towards full professional recognition. The SWEBOK Guide, developed under the Professional Activities Board, is part of a long-term project aimed at achieving this consensus. The ongoing SWEBOK project, with its upcoming milestone—SWEBOK Version 5.0—will continue to redefine “accepted knowledge” and introduce new areas of focus.
+   214→   214→Join the
+   215→   215→SWEBOK Guide V5 Town Hall Series
+   216→   216→to help shape the next edition.
+   217→   217→Focus on Generally Accepted Knowledge
+   218→   218→The software engineering body of knowledge is an all-inclusive term that describes the sum of knowledge within the profession of software engineering. Since it is usually not possible to put the full body of knowledge of even an emerging discipline, such as software engineering, into a single document, there is a need for a Guide to the Software Engineering Body of Knowledge. This Guide will seek to identify and describe that subset of the body of knowledge that is generally accepted, even though software engineers must be knowledgeable not only in software engineering, but also, of course, in other related disciplines.
+   219→   219→What do we mean by “generally accepted knowledge”?
+   220→   220→To better illustrate what “generally accepted knowledge” is relative to other types of knowledge, the figure below proposes a draft three-category schema for classifying knowledge.
+   221→   221→Categories of Knowledge
+   222→   222→The Project Management Institute in its Guide to the Project Management Body of Knowledge defines “generally accepted” knowledge for project management in the following manner:
+   223→   223→“Generally accepted” does not mean that the knowledge and practices described are or should be applied uniformly on all projects; the project management team is always responsible for determining what is appropriate for any given project.
+   224→   224→The Guide to the Project Management Body of Knowledge is now an IEEE Standard, IEEE 1490-2003.
+   225→   225→The Industrial Advisory Board of the SWEBOK Guide better
+   226→   226→defines “generally accepted” as knowledge to be included in the study material of a software engineering licensing exam that a graduate would pass after completing four years of work experience
+   227→   227→. These two definitions should be seen as complementary.
+   228→   228→Knowledge Area Editors are also expected to be somewhat forward-looking in their interpretation by taking into consideration not only what is “generally accepted” today, but what they expect will be “generally accepted” in a 3 to 5 year timeframe.
+   229→   229→Software Engineering Body of Knowledge and Curriculum are Not the Same
+   230→   230→Software engineers must not only be knowledgeable in what is specific to their discipline, but they also, of course, must know a lot more. The goal of this initiative is not, however, to inventory everything that software engineers should know, but to identify what forms the core of software engineering. It is the responsibility of other organizations and initiatives involved in the licensing and certification of professionals and the development of accreditation criteria and curricula to define what a software engineer must know outside software engineering. We believe that a very clear distinction must be made between the software engineering body of knowledge and the contents of software engineering curricula.
+   231→   231→View the SWEBOK table of contents
+   232→   232→to get an overview of topics.
+   233→   233→List of KA Editors and Contributing Editors
+   234→   234→KA EDITORS
+   235→   235→Software Requirements
+   236→   236→Steve Tockey,
+   237→   237→Construx Software, USA.
+   238→   238→Software Architecture
+   239→   239→Rich Hilliard,
+   240→   240→USA.
+   241→   241→Software Design
+   242→   242→Rich Hilliard,
+   243→   243→USA.
+   244→   244→Software Construction
+   245→   245→Xin Peng,
+   246→   246→Software School, Fudan University, China.
+   247→   247→Steve Schwarm,
+   248→   248→Synopsys – Black Duck Software, USA.
+   249→   249→Software Testing
+   250→   250→Eda Marchetti,
+   251→   251→ISTI-CNR, Italy.
+   252→   252→Said Daoudagh,
+   253→   253→ISTI-CNR, Italy.
+   254→   254→Software Engineering Operations
+   255→   255→Francis Bordeleau,
+   256→   256→École de technologie supérieure (ÉTS), Canada.
+   257→   257→Alain April,
+   258→   258→École de technologie supérieure (ÉTS), Canada.
+   259→   259→Software Maintenance
+   260→   260→Ali Ouni,
+   261→   261→École de technologie supérieure (ÉTS), Canada.
+   262→   262→Alain April,
+   263→   263→École de technologie supérieure (ÉTS), Canada.
+   264→   264→Peter Leather,
+   265→   265→Exceptional Performance, UK.
+   266→   266→Software Configuration Management
+   267→   267→Maria Isabel Sánchez Segura,
+   268→   268→Universidad Carlos III de Madrid, Spain.
+   269→   269→Bob Aiello,
+   270→   270→CM Best Practices, USA.
+   271→   271→Software Engineering Management
+   272→   272→Kenneth E. Nidiffer,
+   273→   273→George Mason University, USA.
+   274→   274→Software Engineering Process
+   275→   275→Juan Garbajosa,
+   276→   276→Universidad Politécnica de Madrid, Spain.
+   277→   277→Software Engineering Models and Methods
+   278→   278→Hironori Washizaki,
+   279→   279→Waseda University, Japan.
+   280→   280→Akinori Ihara,
+   281→   281→Wakayama University, Japan.
+   282→   282→Shinpei Ogata,
+   283→   283→Shinshu University, Japan.
+   284→   284→Software Quality
+   285→   285→Alain April,
+   286→   286→École de technologie supérieure (ÉTS), Canada.
+   287→   287→Steve Tockey,
+   288→   288→Construx Software, USA.
+   289→   289→Steve Schwarm,
+   290→   290→Synopsys – Black Duck Software, USA.
+   291→   291→Software Security
+   292→   292→Nobukazu Yoshioka,
+   293→   293→Waseda University, Japan.
+   294→   294→Seiji Munetoh,
+   295→   295→IBM Research, Japan.
+   296→   296→Software Engineering Professional Practice
+   297→   297→Katsuhisa Shintani,
+   298→   298→Waseda University, Japan.
+   299→   299→Eiji Hayashiguchi,
+   300→   300→Waseda University, Japan.
+   301→   301→Software Engineering Economics
+   302→   302→Maria Isabel Sánchez Segura,
+   303→   303→Universidad Carlos III de Madrid, Spain.
+   304→   304→Steve Tockey,
+   305→   305→Construx Software, USA.
+   306→   306→Computing Foundations
+   307→   307→Yatheendranath TJ,
+   308→   308→DhiiHii Labs Private Limited, India.
+   309→   309→Mathematical Foundations
+   310→   310→Yatheendranath TJ,
+   311→   311→DhiiHii Labs Private Limited, India.
+   312→   312→Steve Tockey,
+   313→   313→Construx Software, USA.
+   314→   314→Engineering Foundations
+   315→   315→Yatheendranath TJ,
+   316→   316→DhiiHii Labs Private Limited, India.
+   317→   317→Steve Tockey,
+   318→   318→Construx Software, USA.
+   319→   319→Appendix A: Knowledge Area Description Specifications
+   320→   320→Juan Garbajosa,
+   321→   321→Universidad Politécnica de Madrid, Spain.
+   322→   322→Hironori Washizaki,
+   323→   323→Waseda University, Japan.
+   324→   324→Appendix B: IEEE and ISO/IEC Standards Supporting SWEBOK
+   325→   325→Annette Reilly,
+   326→   326→USA.
+   327→   327→Appendix C: Consolidated Reference List
+   328→   328→Hironori Washizaki,
+   329→   329→Waseda University, Japan.
+   330→   330→CONTRIBUTING EDITORS:
+   331→   331→The following persons contributed to editing the SWEBOK Guide V4:
+   332→   332→Michelle Phon
+   333→   333→Eric Berkowitz
+   334→   334→Volunteer
+   335→   335→The SWEBOK Guide requires participation from all parts of the world and diverse areas of software engineering. Help us by contributing to the public review in developing version 5.0
+   336→   336→Public Review
+   337→   337→Tell Us How You Use the SWEBOK Guide
+   338→   338→SWEBOK.org will feature more information on how people are using the SWEBOK Guide as time goes on. Tell us how you are using SWEBOK by writing to
+   339→   339→swebok@computer.org
+   340→   340→.
+   341→   341→Stay Informed
+   342→   342→Sign up here
+   343→   343→to be on the email list for notification as updates and opportunities related to the SWEBOK Guide become available.
+   344→   344→FAQs
+   345→   345→What is SWEBOK?
+   346→   346→SWEBOK is an acronym that stands for the
+   347→   347→Software Engineering Body Of Knowledge
+   348→   348→, an all-inclusive term that describes the sum of knowledge within the profession of software engineering.
+   349→   349→Why is there a SWEBOK guide?
+   350→   350→Since it is usually not possible to put the full body of knowledge of even an emerging discipline, such as software engineering, into a single document, there is a need for a
+   351→   351→Guide to the Software Engineering Body of Knowledge
+   352→   352→.
+   353→   353→This guide identifies and describes that subset of the body of knowledge that is generally accepted, even though software engineers must be knowledgeable not only in software engineering, but also, of course, in other related disciplines.
+   354→   354→How is the SWEBOK guide developed?
+   355→   355→Software engineers worldwide can participate in the guide’s development. Anyone can sign up to be a reviewer. Look for postings of other opportunities and reviewer sign up on the SWEBOK
+   356→   356→Volunteer
+   357→   357→page.
+   358→   358→Who should use the SWEBOK guide?
+   359→   359→Anyone who develops software should be familiar with the guide and use it where applicable.
+   360→   360→What do you use SWEBOK for?
+   361→   361→There are a multitude of purposes for using SWEBOK including:
+   362→   362→Understanding Software Engineering
+   363→   363→Guiding Education and Training
+   364→   364→Professional Development
+   365→   365→Standardizing Practices
+   366→   366→Certification Preparation
+   367→   367→The Computer Society began defining this body of knowledge in 1998 as a necessary step toward making software engineering a legitimate engineering discipline and a recognized profession. As software becomes the center of critical systems, it is only natural that standards of practice, knowledge, and training would arise in software engineering.
+   368→   368→How do you define “generally accepted” knowledge?
+   369→   369→A simple definition is “established traditional practices recommended by many organizations.”
+   370→   370→Another definition that the SWEBOK guide uses comes from the Project Management Institute. Its
+   371→   371→Guide to the Project Management Body of Knowledge
+   372→   372→defines “generally accepted” knowledge for project management in the following manner:
+   373→   373→“‘Generally accepted’ means that the knowledge and practices described are applicable to most projects most of the time and that there is widespread consensus about their value and usefulness. ‘Generally accepted’ does not mean that the knowledge and practices described are or should be applied uniformly on all projects; the project management team is always responsible for determining what is appropriate for any given project.”
+   374→   374→The Industrial Advisory Board for the 2004 SWEBOK guide better defines “generally accepted” as knowledge to be included in the study material of a software engineering licensing exam that a graduate would pass after completing four years of work experience. These two definitions should be seen as complementary.
+   375→   375→How do you determine what is “generally accepted” knowledge?
+   376→   376→The SWEBOK guide uses a rigorous process that includes successive levels of review. When an editor proposes a draft knowledge area, a selected group of invited experts provide wide-ranging comments, in a review similar to that for academic papers. The group discusses these comments, and the editor then incorporates the accepted changes.
+   377→   377→Next, a larger group of invited practitioners answers a set list of about 14 questions on the new draft. These questions have to do with relevancy and usefulness, and the editor uses the responses to further refine the draft. The last review is open to the public, but comments must be specific and refer to a particular line or item within the draft.
+   378→   378→Which publications and books discuss the SWEBOK guide?
+   379→   379→Many publications and books have referred to the SWEBOK Guide. Examples are the following but not limited to them. Many more publications discuss and refer to the SWEBOK Guide available on the
+   380→   380→IEEE Computer Society Digital Library (CSDL)
+   381→   381→and the
+   382→   382→IEEE Xplorer®
+   383→   383→.
+   384→   384→D. R. Fairley, P. Bourque, and J. Kepple,
+   385→   385→“The impact of SWEBOK Version 3 on software engineering education and training,”
+   386→   386→2014 IEEE 27th Conference on Software Engineering Education and Training (CSEE&T), 2014.
+   387→   387→A. Rashid, G. Danezis, H. Chivers, E. Lupu, A. Martin, M. Lewis, and C. Peersman,
+   388→   388→“Scoping the Cyber Security Body of Knowledge,”
+   389→   389→IEEE Security & Privacy, Vol. 16, No. 3, 2018.
+   390→   390→J. Voas, R. Kuhn, C. Paulsen, and K. Schaffer,
+   391→   391→“Computer Science Education in 2018,”
+   392→   392→IT Professional, Vol. 20, No. 1, 2018.
+   393→   393→P. Bourque,
+   394→   394→“The SWEBOK Guide — More Than 20 Years down the Road,”
+   395→   395→2020 IEEE 32nd Conference on Software Engineering Education and Training (CSEE&T), 2020.
+   396→   396→Z. Sun, C. Hu, C. Li, and L. Wu,
+   397→   397→“Domain Ontology Construction and Evaluation for the Entire Process of Software Testing,”
+   398→   398→IEEE Access, Vol. 8, 2020.
+   399→   399→I. Ozkaya,
+   400→   400→“An AI Engineer Versus a Software Engineer,”
+   401→   401→IEEE Software, Vol. 39, No. 6, 2022.
+   402→   402→M. Kuhrmann, et al.,
+   403→   403→“What Makes Agile Software Development Agile?”
+   404→   404→IEEE Transactions on Software Engineering, Vol. 48, No. 9, 2022.
+   405→   405→Z. Kotti, G. Gousios, and D. Spinellis,
+   406→   406→“Impact of Software Engineering Research in Practice: A Patent and Author Survey Analysis,”
+   407→   407→IEEE Transactions on Software Engineering, Vol. 49, No. 4, 2023.
+   408→   408→F. Ebbers,
+   409→   409→“A Large-Scale Analysis of IoT Firmware Version Distribution in the Wild,”
+   410→   410→IEEE Transactions on Software Engineering, Vol. 49, No. 2, 2023.
+   411→   411→H. Washizaki, M. Sanchez-Segura, J. Garbajosa, S. Tockey, and K. Nidiffer,
+   412→   412→“Envisioning software engineer training needs in the digital era through the SWEBOK V4.0 prism,”
+   413→   413→2023 IEEE 35th International Conference on Software Engineering Education and Training (CSEE&T), 2023.
+   414→   414→Consolidated References List of SWEBOK Guide V4.0
+   415→   415→The Consolidated Reference List identifies all recommended reference materials that accompany the breakdown of topics within each knowledge area (KA). This Consolidated Reference List is adopted by the software engineering certification and associated professional development products offered by the IEEE Computer Society. KA Editors used the references allocated to their KA by the Consolidated Reference List as their Recommended References. See Appendix C of the guide for more details.
+   416→   416→A. Silberschatz, P.B. Galvin, and G. Gagne,
+   417→   417→Operating System Concepts
+   418→   418→, 8th ed., Wiley, 2008.
+   419→   419→A.M.J. Hass,
+   420→   420→Configuration Management Principles and Practices
+   421→   421→, 1st ed., Addison-Wesley, 2003.
+   422→   422→B. Boehm and R. Turner,
+   423→   423→Balancing Agility and Discipline: A Guide for the Perplexed
+   424→   424→, Addison-Wesley, 2003.
+   425→   425→C.Y. Laporte, A. April,
+   426→   426→Software Quality Assurance
+   427→   427→, IEEE Computer Society Press, 1st ed., 2018.
+   428→   428→D. Budgen,
+   429→   429→Software Design
+   430→   430→, 3rd ed., CRC Press, 2021.
+   431→   431→D. C. Montgomery and G. C. Runger,
+   432→   432→Applied Statistics and Probability for Engineers
+   433→   433→, 7th ed. Hoboken, NJ: Wiley, 2018.
+   434→   434→D. Farley,
+   435→   435→Modern Software Engineering: Doing What Works to Build Better Software Faster
+   436→   436→, Addison-Wesley Professional, 2022.
+   437→   437→E. Gamma et al.,
+   438→   438→Design Patterns: Elements of Reusable Object-Oriented Software
+   439→   439→, 1st ed., Addison-Wesley Professional, 1994.
+   440→   440→E.W. Cheney and D.R. Kincaid,
+   441→   441→Numerical Mathematics and Computing
+   442→   442→, 6th ed., Brooks/Cole, 2007.
+   443→   443→E.W. Cheney and D.R. Kincaid,
+   444→   444→Numerical Mathematics and Computing
+   445→   445→, 7th ed., Addison Wesley, 2020.
+   446→   446→F. Bott et al.,
+   447→   447→Professional Issues in Software Engineering
+   448→   448→, 3rd ed., Taylor & Francis, 2000.
+   449→   449→G. Booch, J. Rumbaugh and I. Jacobson,
+   450→   450→The Unified Modeling Language User Guide
+   451→   451→, 2nd edition, Addison-Wesley, 2005.
+   452→   452→G. Kim, J. Humble, P. Debois, J. Willis and J. Allspaw,
+   453→   453→The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations
+   454→   454→, 2nd ed., IT Revolution, 2021.
+   455→   455→G. Voland,
+   456→   456→Engineering by Design
+   457→   457→, 2nd ed., Prentice Hall, 2003.
+   458→   458→I. Sommerville,
+   459→   459→Software Engineering
+   460→   460→, 10th ed., Addison-Wesley, 2016.
+   461→   461→J. McGarry et al.,
+   462→   462→Practical Software Measurement: Objective Information for Decision Makers
+   463→   463→, Addison-Wesley Professional, 2001.
+   464→   464→J. Nielsen,
+   465→   465→Usability Engineering
+   466→   466→, 1st ed., Morgan Kaufmann, 1993.
+   467→   467→J. Shore and S. Warden,
+   468→   468→The Art of Agile Development
+   469→   469→, O’Reilly Media, 2nd Edition, 2021.
+   470→   470→J.G. Brookshear,
+   471→   471→Computer Science: An Overview
+   472→   472→, 12th ed., Addison-Wesley, 2017.
+   473→   473→J.H. Allen et al.,
+   474→   474→Software Security Engineering: A Guide for Project Managers
+   475→   475→, Addison-Wesley, 2008.
+   476→   476→J.M. Wing,
+   477→   477→A Specifier’s Introduction to Formal Methods, Computer
+   478→   478→, vol. 23, no. 9, 1990, pp. 8, 10–23.
+   479→   479→K. Rosen,
+   480→   480→Discrete Mathematics and its Applications
+   481→   481→, 8th ed., McGraw-Hill, 2018.
+   482→   482→K.E. Wiegers,
+   483→   483→Software Requirements
+   484→   484→, 3rd ed., Microsoft Press, 2013.
+   485→   485→L. Null and J. Lobur,
+   486→   486→The Essentials of Computer Organization and Architecture
+   487→   487→, 2nd ed., Jones and Bartlett Publishers, 2006.
+   488→   488→L. Null and J. Lobur,
+   489→   489→The Essentials of Computer Organization and Architecture
+   490→   490→, 5th ed. Sudbury, MA: Jones and Bartlett Publishers, 2018.
+   491→   491→M. Bishop,
+   492→   492→Computer Security: Art and Science
+   493→   493→, 2nd Edition, Addison-Wesley, 2018.
+   494→   494→M. Page-Jones,
+   495→   495→Fundamentals of Object-Oriented Design in UML
+   496→   496→, 1st ed., Addison-Wesley, 1999.
+   497→   497→N. Rozanski and E. Woods,
+   498→   498→Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives
+   499→   499→, 2nd edition, Addison-Wesley, 2011.
+   500→   500→P. Clements et al.,
+   501→   501→Documenting Software Architectures: Views and Beyond
+   502→   502→, 2nd ed., Pearson Education, 2010.
+   503→   503→P. Grubb and A.A. Takang,
+   504→   504→Software Maintenance: Concepts and Practice
+   505→   505→, 2nd ed., World Scientific Publishing, 2003.
+   506→   506→Project Management Institute and Agile Alliance,
+   507→   507→Agile Practice Guide
+   508→   508→, Project Management Institute, 2017.
+   509→   509→R.E. Fairley,
+   510→   510→Managing and Leading Software Projects
+   511→   511→, Wiley-IEEE Computer Society Press, 2009.
+   512→   512→R.N. Taylor, N. Medvidović, E. Dashofy,
+   513→   513→Software Architecture: Foundations, Theory, and Practice
+   514→   514→, Wiley, 2009.
+   515→   515→S. McConnell,
+   516→   516→Code Complete
+   517→   517→, 2nd ed., Microsoft Press, 2004.
+   518→   518→S. Naik and P. Tripathy,
+   519→   519→Software Testing and Quality Assurance: Theory and Practice
+   520→   520→, Wiley-Spektrum, 2008.
+   521→   521→S. Tockey,
+   522→   522→Return on Software: Maximizing the Return on Your Software Investment
+   523→   523→, 1st ed., Addison-Wesley, 2004.
+   524→   524→S.H. Kan,
+   525→   525→Metrics and Models in Software Quality Engineering
+   526→   526→, 2nd ed., Addison-Wesley, 2002.
+   527→   527→S.J. Mellor and M.J. Balcer,
+   528→   528→Executable UML: A Foundation for Model-Driven Architecture
+   529→   529→, 1st ed., Addison-Wesley, 2002.
+   530→   530→Terms and Conditions
+   531→   531→The document you are about to download is protected by US and international copyright laws, and is made available to you exclusively for your own individual, non-commercial purposes. This User License Agreement describes the terms and conditions that you agree to with regard to using SWEBOK version 4.0.
+   532→   532→What You Can Do
+   533→   533→This license gives you the right to print and retain a single hard copy of the PDF file, and to maintain the PDF version on your personal computer and/or mobile device. You may also post SWEBOK 4.0 on a corporate or institutional intranet or similar site for reference use by employees or staff (however, all other limitations and requirements apply to those users as well). You may quote or reproduce reasonable passages from SWEBOK 4.0 in a review, article, scholarly, or educational material, provided that you provide an appropriate citation to the source document. Educational use of this material is permitted without fee provided that:
+   534→   534→Copies are made for non-profit educational use and not for resale, advertising, or other commercial use;
+   535→   535→Any copy or other use is accompanied by a full citation to the original work and its copyright;
+   536→   536→The copied text has not been materially altered
+   537→   537→What You Cannot Do
+   538→   538→You may not copy or otherwise reproduce or share SWEBOK 4.0. Under no circumstances are you permitted to distribute or sell SWEBOK version 4.0 without permission. You may not post SWEBOK version 4.0 publicly, or provide any manner of public access to your downloaded document, including through links. You may not translate SWEBOK 4.0 into other languages, reuse significant portions of SWEBOK 4.0 for commercial purposes, or alter the text of SWEBOK 4.0 in any way.
+   539→   539→The Fine Print
+   540→   540→While all reasonable care has been taken in the preparation and review of SWEBOK version 4.0, the IEEE does not warrant that the document is accurate, current, or suitable for your particular purpose. In making this document available to you, IEEE is not rendering legal, accounting, technical, or other professional services. In no event shall the IEEE be liable for any direct, indirect, punitive, incidental, special, consequential, or any other damages or judgments whatsoever arising out of or connected with the use or misuse of this document.
+   541→   541→This transaction is governed by the laws of New York.
+   542→   542→If you have any questions or concerns regarding these terms, or if you have other questions regarding copyright and potential uses, please contact the IEEE Computer Society at
+   543→   543→help@computer.org
+   544→   544→.
+   545→   545→Sign up for our newsletter
+   546→   546→IEEE COMPUTER SOCIETY
+   547→   547→About Us
+   548→   548→Board of Governors
+   549→   549→Newsletters
+   550→   550→Press Room
+   551→   551→IEEE Support Center
+   552→   552→Contact Us
+   553→   553→COMPUTING RESOURCES
+   554→   554→Career Center
+   555→   555→Courses & Certifications
+   556→   556→Webinars
+   557→   557→Podcasts
+   558→   558→Tech News
+   559→   559→Membership
+   560→   560→BUSINESS SOLUTIONS
+   561→   561→Corporate Partnerships
+   562→   562→Conference Sponsorships & Exhibits
+   563→   563→Advertising
+   564→   564→Recruiting
+   565→   565→Digital Library Institutional Subscriptions
+   566→   566→DIGITAL LIBRARY
+   567→   567→Magazines
+   568→   568→Journals
+   569→   569→Conference Proceedings
+   570→   570→Video Library
+   571→   571→Librarian Resources
+   572→   572→COMMUNITY RESOURCES
+   573→   573→Governance
+   574→   574→Conference Organizers
+   575→   575→Authors
+   576→   576→Chapters
+   577→   577→Communities
+   578→   578→POLICIES
+   579→   579→Privacy
+   580→   580→Accessibility Statement
+   581→   581→IEEE Nondiscrimination Policy
+   582→   582→IEEE Ethics Reporting
+   583→   583→XML Sitemap
+   584→   584→Copyright 2026 IEEE - All rights reserved. A public charity, IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.

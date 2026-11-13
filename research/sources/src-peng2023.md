@@ -1,0 +1,23 @@
+# src-peng2023
+- **Title:** The Impact of AI on Developer Productivity: Evidence from GitHub Copilot
+- **Author / Organization:** Sida Peng, Eirini Kalliamvakou, Peter Cihon, Mert Demirer (GitHub Inc.; MIT Sloan School of Management; Microsoft Research)
+- **Canonical URL:** https://arxiv.org/abs/2302.06590 (full text consulted: https://arxiv.org/html/2302.06590v1)
+- **Publication / update date:** 2023-02-13 (arXiv v1)
+- **Access date:** 2026-11-14
+- **Source type:** preprint (randomized controlled experiment; arXiv cs.SE)
+- **Research questions addressed:** RQ4 (does AI assistance improve productivity, under what conditions)
+- **Original summary (own words):** This is a randomized controlled experiment testing whether GitHub Copilot speeds up completion of a single well-specified coding task. Ninety-five professional programmers recruited through Upwork were paid to implement an HTTP server in JavaScript as quickly as possible; 45 were randomly assigned to use Copilot and 50 to work without it. The Copilot group finished dramatically faster, and the effect was larger for less experienced developers. Both groups' self-estimates of the productivity gain (35%) undershot the measured effect (55.8%), suggesting developers cannot reliably self-assess AI speedups.
+- **Relevant findings:**
+  - Treated group completed the task "55.8% faster" than control; 95% confidence interval [21%, 89%]; p-value 0.0017 (t-test).
+  - Average completion time conditioned on completing: 71.17 minutes (treated) vs 160.89 minutes (control) — "a 55.8% reduction in completion time."
+  - Recruited 95 professional programmers through Upwork (166 offers sent, 95 accepted); randomized 45 treated / 50 control.
+  - Treated group's task success rate was 7 percentage points higher than control, "not statistically significant" (95% CI [-0.11, 0.25]).
+  - Participants in both groups estimated a 35% increase in productivity on average — "an underestimation compared with the 55.8% increase in their revealed productivity."
+  - Heterogeneity: less experienced developers (by years of professional coding), developers with heavy coding load (hours of coding per day), and older developers (aged 25–44) benefited more from Copilot.
+  - Telemetry verification: all treated participants configured Copilot and accepted recommendations except five who did not finish sign-up.
+- **Population / methodology / tools:** 95 professional programmers recruited via the Upwork freelancing platform; RCT with random assignment to treatment (GitHub Copilot enabled) or control (no Copilot); single standardized task (HTTP server in JavaScript), time-to-completion as primary outcome; payment-based incentives; four completion-time outliers >300 min were all in the control group and results reportedly remain robust.
+- **Limitations / conflicts of interest / applicability:** Measures time on one artificial, isolated task, not end-to-end software work (design, debugging, review, maintenance, collaboration); participants are Upwork freelancers rather than employees on a real codebase; task-level speed may not generalize to long-horizon productivity; authors are affiliated with GitHub Inc. and Microsoft Research (the tool's vendor), a direct conflict of interest; 2022-era Copilot model; small sample (n=95) with wide CI on the secondary success-rate outcome.
+- **Candidate claims supported:** observed — treated developers completed a standardized JS HTTP-server task 55.8% faster (RCT, CI [21%, 89%]); causal — Copilot caused the measured speedup in this task setting; survey — developers' self-estimated gain (35%) underestimated the measured gain (55.8%); observed — larger speedups for less experienced developers.
+- **Implications for learners:** AI assistance can substantially reduce time on well-defined implementation tasks, and the apparent benefit is strongest for less experienced developers — but the evidence covers a single short task, not whole-feature delivery, and people (including the beneficiaries themselves) misjudge the size of the gain, so learners should calibrate with measured outcomes rather than intuition.
+- **Confidence:** high — full text directly fetched; numbers extracted verbatim from arXiv HTML v1.
+- **Access status:** full

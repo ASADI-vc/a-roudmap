@@ -1,0 +1,28 @@
+# src-puter-chat
+
+- **Title:** puter.ai.chat() — Puter.js v2 documentation
+- **Author / Organization:** Puter Technologies Inc. (official documentation)
+- **Canonical URL:** https://docs.puter.com/AI/chat/
+- **Publication / update date:** unknown (page reflects 2026-era API; references "all models released on or after September 1, 2026")
+- **Access date:** 2026-11-14
+- **Source type:** official vendor API documentation (authoritative for the vendor's API)
+- **Research questions addressed:** RQ9 (verified API surface used to implement the knowledge-grounded assistant)
+- **Original summary (own words):** `puter.ai.chat()` is the Puter.js client API for chat completions. It accepts a prompt string or a messages array (roles: system/user/assistant/tool), plus options: `model` (documented default `gpt-5.4-nano`), `stream`, `max_tokens`, `temperature`, `tools`, `toolChoice`, `parallelToolCalls`, `signal` (AbortSignal), `provider`, `fallback`, `outputFormat`, `stopSequences`, `normalize`, `compaction`, and `testMode` (a boolean that runs the request against a test API so code can be exercised "without using up API credits"). Streaming returns an async iterable of chunks consumed with `for await...of`; provider errors arrive as chunks with `type: "error"`, and network failures throw `{ message, code: "network_error" }` (also `invalid_stream_response`, `request_timeout` after 15 minutes; timeouts are not retried because the model may already have run). Native function/tool calling follows the OpenAI convention: tools are declared as `{ type: "function", function: { name, description, parameters (JSON Schema), strict? } }`; the model returns `message.tool_calls` entries with `id` and `function.name`/`function.arguments` (JSON string); the app executes them and replies with a `role: "tool"` message carrying `tool_call_id`. Stopping a stream mid-flight still bills the full response once the request has reached the model. Puter retries failed provider attempts on alternate providers serving the same model (up to three attempts) unless `fallback: false`.
+- **Relevant findings:**
+  - Syntax forms: `puter.ai.chat(prompt, options = {})`, `puter.ai.chat(prompt, testMode = false, options = {})`, `puter.ai.chat([messages], testMode = false, options = {})` (exact signatures from page).
+  - Option `model`: "If not specified, defaults to `gpt-5.4-nano`"; 500+ models from providers incl. OpenAI, Anthropic, Google, xAI, Mistral, OpenRouter and others (vendor statement).
+  - `tools` / `toolChoice` ("auto" | "none" | "required" | {type:"tool",name}) / `parallelToolCalls` documented; tool-call loop = assistant message with `tool_calls` → app executes → `role:"tool"` + `tool_call_id` + string content.
+  - `stream: true` → async iterable; chunk types include text, tool-call chunks (single `tool_use` when `streamToolInput` unset; incremental `tool_use_start`/`tool_input_delta` when set), `error`, reasoning, usage.
+  - Errors: non-streaming rejects; streaming errors as `{type:"error"}` chunks; codes `network_error`, `invalid_stream_response`, `request_timeout`.
+  - `signal` (AbortSignal) supported; "Stopping a stream stops the output your app receives… the whole response is billed."
+  - `testMode`: "useful for testing your code without using up API credits."
+  - `normalize`: models released on/after 2026-09-01 return OpenAI-shaped responses by default; older models keep provider-native shape unless normalized.
+  - Providers include Alibaba Cloud, Anthropic, Azure OpenAI, DeepSeek, Google, Infron, Meta, MiniMax, Mistral, Moonshot AI, OpenAI, OpenRouter, Together AI, xAI, and Z.AI (list as shown on page).
+- **Population / methodology / tools:** N/A — API documentation.
+- **Limitations / conflicts of interest / applicability:** Authoritative only for Puter's own API; per-model capability claims (e.g., which models honor `tools`) are not guaranteed here and must be handled defensively in application code.
+- **Candidate claims supported:**
+  - Recommendation: implement the assistant with verified `puter.ai.chat()` including streaming and tool-calling protocol; treat tool-calling support per model as advisory (recommendation).
+  - Observed (vendor-documented): `testMode` allows exercising AI code without consuming credits.
+- **Implications for learners/users:** Errors, cancellation, and billing effects (billed-once-reached) must be surfaced honestly in the assistant UI.
+- **Confidence:** high — primary vendor documentation, directly fetched (page fetched in full).
+- **Access status:** full

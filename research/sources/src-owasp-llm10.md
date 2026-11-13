@@ -1,0 +1,29 @@
+# src-owasp-llm10
+- **Title:** OWASP Top 10 for LLM Applications 2025 (v2025)
+- **Author / Organization:** OWASP (Open Worldwide Application Security Foundation) — OWASP GenAI Security Project; Project Lead Steve Wilson, Technical Lead Ads Dawson
+- **Canonical URL:** https://genai.owasp.org/llm-top-10/ (this page serves a JS bot-challenge and could not be fetched directly; content verified from OWASP-controlled sources: the OWASP Foundation project page https://owasp.org/www-project-top-10-for-large-language-model-applications/ and the official release source repo GenAI-Security-Project/GenAI-LLM-Top10 raw markdown, which the OWASP page designates as the active repository)
+- **Publication / update date:** 2025 version (exact release date not stated in fetched files; per OWASP's repo README fetched 2026-11-14, the *2026* release "OWASP GenAI LLM Top 10 2026" was published August 4, 2026 and supersedes the 2025 list)
+- **Access date:** 2026-11-14
+- **Source type:** standards body / community consensus guidance (open-source, CC BY-SA 4.0)
+- **Research questions addressed:** RQ5 (security risks of LLM-integrated applications); indirectly RQ7 (what practitioners must guard against when trusting LLMs)
+- **Original summary (own words):** OWASP's 2025 Top 10 catalogues the most critical security risks specific to LLM applications, produced by a community process of brainstorming, voting, and practitioner feedback that began in 2023. The 2025 edition renumbers and expands the 2023 list: Unbounded Consumption broadens the old Denial of Service entry to include resource and cost risks, Vector and Embedding Weaknesses addresses RAG-specific concerns, System Prompt Leakage is newly added, and Excessive Agency is expanded for agentic architectures. The list functions as the reference taxonomy for LLM-app security failures rather than a study with measurements.
+- **Relevant findings:** (list verified exactly as written in the official 2025 release files)
+  - LLM01:2025 — Prompt Injection ("A Prompt Injection Vulnerability occurs when user prompts alter the LLM's behavior or output in unintended ways… research shows that [RAG/fine-tuning] do not fully mitigate prompt injection vulnerabilities.")
+  - LLM02:2025 — Sensitive Information Disclosure
+  - LLM03:2025 — Supply Chain
+  - LLM04:2025 — Data and Model Poisoning
+  - LLM05:2025 — Improper Output Handling
+  - LLM06:2025 — Excessive Agency
+  - LLM07:2025 — System Prompt Leakage (new in 2025)
+  - LLM08:2025 — Vector and Embedding Weaknesses (new in 2025, motivated by RAG)
+  - LLM09:2025 — Misinformation
+  - LLM10:2025 — Unbounded Consumption (expands 2023's Denial of Service to resource management/unexpected cost risks)
+  - Preface notes the 2025 edition was built by "a larger, more diverse group of contributors worldwide" than 2023.
+- **Population / methodology / tools:** Community consensus process (brainstorming sessions, voting, real-world feedback from LLM-app security professionals); no empirical dataset — this is guidance, not measurement.
+- **Limitations / conflicts of interest / applicability:** Not an empirical study — entry ordering reflects expert voting, not measured prevalence or cost. Community-drafted; vendors sponsor the broader GenAI project (sponsorship disclosed on the site, not verified in fetched files). Written for LLM-app builders, so it applies to anyone shipping AI features rather than to coding-assistant quality per se.
+- **Candidate claims supported:**
+  - **recommendation/standards:** treat prompt injection (LLM01), sensitive information disclosure (LLM02), excessive agency (LLM06), and unbounded consumption (LLM10) as first-class design risks in LLM-integrated software.
+  - **opinion (expert consensus):** these ten categories are the "most critical" LLM-app vulnerabilities as judged by the contributor community.
+- **Implications for learners:** Learners building AI features should learn this taxonomy as a checklist: never let LLM output execute privileged actions without guardrails (Excessive Agency), assume prompts can leak, expect prompt-injection attempts in any text channel, and cap token/cost consumption. Pairs naturally with the Veracode/Pearce evidence on insecure generated code — the Top 10 covers what the application must defend, not just what generated code contains.
+- **Confidence:** high for the list content and numbering (verified against the OWASP project's official GitHub release files); medium for release metadata (2025 exact publication date unverified; genai.owasp.org itself not directly fetchable).
+- **Access status:** full (via OWASP Foundation project page + official GitHub release markdown; canonical genai.owasp.org URL itself bot-blocked)

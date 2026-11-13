@@ -1,0 +1,24 @@
+# src-veracode2025
+- **Title:** 2025 GenAI Code Security Report (blog summary: "We Asked 100+ AI Models to Write Code. Here's How Many Failed Security Tests."; report page labeled "October 2025 Update: GenAI Code Security Report")
+- **Author / Organization:** Veracode (application-security vendor); blog by Jens Wessling, Veracode CTO
+- **Canonical URL:** https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/ (landing page; full report is gated) — blog summary: https://www.veracode.com/blog/genai-code-security-report/
+- **Publication / update date:** Blog post Jul 30, 2025; report landing page carries an "October 2025 Update" label
+- **Access date:** 2026-11-14
+- **Source type:** vendor research (security vendor benchmark of LLM code generation)
+- **Research questions addressed:** RQ5 (security/quality risks of AI-generated code)
+- **Original summary (own words):** Veracode tested more than 100 large language models on code-generation tasks in Java, Python, C#, and JavaScript, scoring the output against security tests tied to OWASP Top 10 vulnerabilities. Nearly half of generated samples failed: 45% of AI-generated code introduced OWASP Top 10 vulnerabilities. Java was the worst language and cross-site scripting the most frequent failure. Crucially, security performance stayed flat across model generations — newer, larger models write more functional code but are no better at writing secure code.
+- **Relevant findings:**
+  - "45% of code samples failed security tests and introduced OWASP Top 10 security vulnerabilities into the code."
+  - Language breakdown (security failure rates): Java 72% (riskiest); JavaScript 43%; C# 45%; Python 38%.
+  - "Cross-Site Scripting (CWE-80): AI tools failed to defend against it in 86% of relevant code samples."
+  - "We evaluated LLMs of varying sizes, release dates, and training sources over a matter of years. While the models got better at writing functional or syntactically correct code, they were no better at writing secure code. Security performance remained flat, regardless of model size or training sophistication."
+  - Report landing page: "AI-generated code introduced risky security flaws in 45% of tests"; "Bigger Models ≠ More Secure Code — Larger, newer AI models didn't improve security."
+- **Population / methodology / tools:** 100+ LLMs tested across Java, JavaScript, Python, and C# on code-generation tasks scored by security tests (per vendor methodology; detailed task counts and test harness are inside the gated full report, not verified here).
+- **Limitations / conflicts of interest / applicability:** Clear vendor conflict of interest — Veracode sells application-security testing and AI remediation products. Benchmark uses artificial security-focused tasks, not real repos or end-to-end development; "failure" = introducing an OWASP-mapped flaw under their test conditions. Methodology details are inside the gated report and could not be independently verified from fetched pages. The flat-across-generations finding is striking and worth independent replication.
+- **Candidate claims supported:**
+  - **observed** (vendor benchmark): ~45% of AI-generated samples in their harness introduced OWASP Top 10 flaws; Java failing ~72%.
+  - **observed:** security pass rates flat across model sizes/release dates (2021→2025 era models).
+  - **recommendation:** scan/validate AI-generated code like any other code ("Speed without security is a risk you can't afford").
+- **Implications for learners:** Functional-looking AI code is not secure code; security pass rates did not improve with model generations, so review discipline cannot be skipped. Learners should prioritize the classic injection/XSS family (XSS failed in 86% of relevant samples here) and use SAST on AI output as a habit.
+- **Confidence:** high for the topline numbers quoted (directly from Veracode's own blog and landing page); medium for methodology specifics (full report gated); note vendor bias on interpretation.
+- **Access status:** partial (blog summary + gated report landing page fetched; full PDF report not accessible)

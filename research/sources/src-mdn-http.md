@@ -1,0 +1,24 @@
+# src-mdn-http
+- **Title:** Overview of HTTP (page heading as served; historically known as "An overview of HTTP")
+- **Author / Organization:** MDN Web Docs (Mozilla; page credits "MDN contributors")
+- **Canonical URL:** https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview (the legacy path https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview returned 200 via redirect to this "Guides" path)
+- **Publication / update date:** living document; page footer states "This page was last modified on Oct 8, 2026 by MDN contributors"
+- **Access date:** 2026-11-14
+- **Source type:** official documentation (de facto official reference for the web platform, maintained by Mozilla with community contributions; "View this page on GitHub" / "Help improve MDN" links confirm open, community-maintained editing)
+- **Research questions addressed:** RQ1 (durable foundations: how the web's core protocol works) primarily; RQ8 secondarily (developer-practice literacy — debugging with network monitors, using Fetch).
+- **Original summary (own words):** This page is MDN's conceptual introduction to HTTP: what the protocol is, how client-server communication with requests and responses works, and where proxies, caching, sessions, and cookies fit. It walks through basic aspects (simplicity, extensibility, statelessness plus cookie-based sessions, connection handling), describes the structure of HTTP messages and a full request/response flow, and closes with HTTP-based APIs like Fetch. It is deliberately conceptual rather than a full method or status-code reference, which MDN covers on separate pages.
+- **Relevant content for curriculum:**
+  - Opening framing: HTTP as a protocol for fetching resources; client-server model; requests vs responses; HTTP over TCP or TLS.
+  - "Components of HTTP-based systems": Client (the user-agent), The Web server, Proxies (with the proxy-function list: caching, filtering, load balancing, authentication, logging).
+  - "Basic aspects of HTTP": "HTTP is simple" (human-readable messages), "HTTP is extensible" (headers), "HTTP is stateless, but not sessionless" (cookies/sessions), "HTTP and connections" (HTTP/1.1 persistent connections, HTTP/2 multiplexing, QUIC).
+  - "What can be controlled by HTTP": Caching, Relaxing the origin constraint (CORS context), Authentication, Proxy and tunneling, Sessions.
+  - "HTTP flow": open TCP connection → send HTTP message → read response → close or reuse; includes concrete example request (`GET / HTTP/1.1` with `Host`/`Accept-Language` headers) and response (`HTTP/1.1 200 OK` with Date, Server, Last-Modified, ETag, Content-Length, Content-Type headers).
+  - "HTTP Messages": Requests (HTTP method — names GET, POST, OPTIONS, HEAD; path; version; headers; optional body) and Responses (version; status code and non-authoritative status message; headers; optional body). Note: HTTP/2 framing discussion included.
+  - "APIs based on HTTP": Fetch API (explicitly noted as replacing XMLHttpRequest), server-sent events / EventSource.
+  - "See also": Evolution of HTTP; glossary terms HTTP, HTTP/2, QUIC.
+- **Applicability:** cite from any HTTP fundamentals topic page (request/response anatomy, methods, status codes, headers, statelessness and cookies, caching, connection/HTTP-version evolution); cite from client-server/Fetch lesson pages; cite as background for CORS, cookies/sessions, and debugging (network monitor) topics.
+- **Limitations:** This overview page does not enumerate all methods or status codes — those live on separate MDN pages (not fetched here), so per-topic links should target those pages directly. Content is continuously updated (living doc); version-specific claims (HTTP/2, QUIC status) can shift. MDN's "official-ness" is de facto: it is community-edited, not an IETF standard — normative references should point to RFCs where precision matters.
+- **Candidate claims supported:** recommendation — teach HTTP request/response anatomy and statelessness from this page before framework-level networking; reference — use MDN as the primary web-platform teaching reference for browser/HTTP behavior.
+- **Implications for learners:** Learners reading this page should be able to trace a full HTTP exchange (connection → request → response → reuse), explain statelessness vs cookie sessions, and know where MDN's deeper HTTP reference pages sit under the "Guides" URL scheme.
+- **Confidence:** high — the full page was fetched and all section names listed above were read directly from the served HTML.
+- **Access status:** full

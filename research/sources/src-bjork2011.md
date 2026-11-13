@@ -1,0 +1,23 @@
+# src-bjork2011
+
+- **Title:** Making Things Hard on Yourself, But in a Good Way: Creating Desirable Difficulties to Enhance Learning (Chapter 5, in "Using Testing to Improve Learning and Memory" / Psychology and the Real World)
+- **Author / Organization:** Elizabeth Ligon Bjork & Robert A. Bjork (UCLA)
+- **Canonical URL:** https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf
+- **Publication / update date:** 2011
+- **Access date:** 2026-11-14
+- **Source type:** peer-recognized book chapter by original researchers (learning science)
+- **Research questions addressed:** RQ3 (which study techniques demonstrably work; how to structure practice)
+- **Original summary (own words):** The Bjorks distinguish storage strength (how integrated a memory is) from retrieval strength (current accessibility), and warn that current performance reflects retrieval strength only — learners mistake fluent, easy practice for learning. "Desirable difficulties" are conditions that slow visible progress but produce more durable, flexible knowledge: varying practice conditions, interleaving topics instead of blocking, spacing instead of massing study sessions, and generation/retrieval instead of passive review. Crucially, a difficulty is desirable only if the learner has enough background knowledge to engage it successfully — otherwise it backfires.
+- **Relevant findings:**
+  - Theory (verbatim): "current performance is entirely a function of current retrieval strength, but… storage strength acts to retard the loss (forgetting) and enhance the gain (relearning) of retrieval strength" (p. 56-57); "if learners interpret current retrieval strength as storage strength," they overestimate learning.
+  - Definition (verbatim): "Such desirable difficulties… include varying the conditions of learning…; interleaving instruction on separate topics, rather than grouping instruction by topic (called blocking); spacing, rather than massing, study sessions on a given topic; and using [tests/generation]" (p. 57).
+  - Boundary condition (verbatim): "If, however, the learner does not have the background knowledge or skills to respond to them successfully, they become undesirable difficulties."
+  - Spacing: "the benefits of spacing on long-term retention, called the spacing effect, have been demonstrated for all manner of materials and tasks, types of learners" (p. 58).
+- **Population / methodology / tools:** Synthesis chapter by originators of the framework; cites classic experiments (e.g., Shea & Morgan 1979 on interleaving).
+- **Limitations / conflicts of interest / applicability:** Conceptual chapter, not a meta-analysis; effect sizes elsewhere (Dunlosky 2013, Adesope 2017). Boundary condition matters for curriculum sequencing: beginners need worked examples before "desirable difficulty" is safe.
+- **Candidate claims supported:**
+  - Causal: spacing/interleaving/retrieval produce more durable learning than massed blocked easy practice (experimental literature summarized by originators).
+  - Recommendation: sequence practice with spacing and interleaving, but calibrate difficulty to the learner's current knowledge (recommendation with stated boundary condition).
+- **Implications for learners:** Feeling fluent ≠ knowing; the platform mixes topic revisits and projects (interleaving/spacing) and marks when a difficulty is productive vs premature.
+- **Confidence:** high — full chapter text fetched and read from the authors' lab site.
+- **Access status:** full

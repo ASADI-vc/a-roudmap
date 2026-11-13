@@ -1,0 +1,25 @@
+# src-barke2023
+- **Title:** Grounded Copilot: How Programmers Interact with Code-Generating Models
+- **Author / Organization:** Shraddha Barke, Michael B. James, Nadia Polikarpova — UC San Diego (equal contribution first two); supported by NSF grants 2107397 and 1955457
+- **Canonical URL:** https://arxiv.org/abs/2206.15000 — NOTE: the assignment brief gave arXiv:2206.15031, which is a different (computer-vision) paper; the correct arXiv ID is 2206.15000. Peer-reviewed version: Proceedings of the ACM on Programming Languages (PACMPL), OOPSLA 2023 issue, DOI 10.1145/3586030, published 2023-04-06 (Crossref).
+- **Publication / update date:** arXiv v1 2022-06-30, v3 2022-10-31; PACMPL/OOPSLA 2023 (2023-04-06)
+- **Access date:** 2026-11-14
+- **Source type:** peer-reviewed study (qualitative grounded-theory study; OOPSLA 2023)
+- **Research questions addressed:** RQ7 (practitioner usage patterns and interaction with AI assistants); informs learning/over-reliance discussion
+- **Original summary (own words):** The authors observed 20 participants — with varying prior Copilot experience — solving diverse programming tasks across four languages, and built a grounded theory of Copilot-assisted programming. Interactions are bimodal: in acceleration mode the programmer already knows what to do next and uses Copilot to get there faster; in exploration mode the programmer is unsure how to proceed and uses Copilot to explore options. Validation strategies differ by mode: accelerators check suggestions by quick "pattern matching" and are reluctant to accept or repair them, while explorers validate explicitly and willingly accept-and-edit. The team derives usability recommendations for future assistants.
+- **Relevant findings:**
+  - Bimodal interaction theory: acceleration mode vs exploration mode (main finding).
+  - Total study time interacting with Copilot: exploration 248.6 minutes vs acceleration 104.7 minutes across all participants ("more than twice").
+  - Professionals with the most language expertise spend more time accelerating; novices without prior Copilot experience spend relatively more time exploring, partly because "novice users have higher expectations of Copilot's ability to solve high-level exploratory tasks."
+  - Tasks featuring unfamiliar APIs (Chat Client, Benford's Law) pushed all participants into considerably more exploration.
+  - Prompting strategies: in acceleration mode, code prompts dominate (71.4%; context prompts 15.2%); in exploration mode, intentional comment prompts are far more common (57.2% vs 13.1% in acceleration); the multi-suggestions pane is rarely used in acceleration but jumps in exploration.
+  - Validation: acceleration-mode programmers "validate suggestions by 'pattern matching'" (Sec. 4.1.4) and are "reluctant to accept or repair suggestions" (4.1.5); exploration-mode programmers validate explicitly and are "willing to accept and edit" (4.2.5–4.2.6).
+- **Population / methodology / tools:** n=20 observed participants solving tasks in four programming languages; grounded-theory qualitative analysis plus quantitative breakdown of time/prompting strategies; GitHub Copilot (Codex-based, 2022).
+- **Limitations / conflicts of interest / applicability:** Small qualitative sample (20), 2022-era Copilot; academic, NSF-funded (no vendor conflict). The paper studies interaction, not productivity or code quality outcomes; it does not measure learning or over-reliance directly (no "over-reliance" claim appears in the text). Generalization beyond autocomplete-style assistants is untested.
+- **Candidate claims supported:**
+  - **observed:** programmers alternate between acceleration and exploration modes; time split is skewed toward exploration (248.6 vs 104.7 min).
+  - **observed:** validation quality differs by mode — pattern-matching acceptance is common in acceleration.
+  - **recommendation:** assistants should improve input (more selective, flow-preserving suggestions) and output (better exploration support, e.g., multi-suggestion panes).
+- **Implications for learners:** Two distinct skill profiles are visible: students who "know what to do" skim-validate AI output (pattern matching) — a comprehension risk — while exploration with unfamiliar APIs can genuinely teach options and APIs. Novices' higher expectations of Copilot suggest educators should explicitly teach when to delegate (acceleration) and when to use the model to explore, plus deliberate deep-reading of accepted code.
+- **Confidence:** high — abstract verified on arXiv, and the quantitative/mode details were read directly from the arXiv HTML full text (v3); venue confirmed via Crossref.
+- **Access status:** full (arXiv abstract + HTML full text; official assignment URL corrected from 2206.15031 to 2206.15000)

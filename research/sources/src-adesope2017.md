@@ -1,0 +1,22 @@
+# src-adesope2017
+
+- **Title:** Rethinking the Use of Tests: A Meta-Analysis of Practice Testing
+- **Author / Organization:** Olusola O. Adesope, Dominic A. Trevisan, Narayankripa Sundararajan (Washington State University)
+- **Canonical URL:** https://doi.org/10.3102/0034654316689306 (ERIC record: https://eric.ed.gov/?id=EJ1141817)
+- **Publication / update date:** 2017 (June; Review of Educational Research, v87 n3 p659-701; first online 2017-02-01)
+- **Access date:** 2026-11-14
+- **Source type:** peer-reviewed meta-analysis (Review of Educational Research)
+- **Research questions addressed:** RQ3 (which study techniques demonstrably improve learning and retention)
+- **Original summary (own words):** This meta-analysis examines the "testing effect": gains in learning and retention when students take practice tests on studied material before a final test. Across the included comparisons, practice testing beat restudying and every other non-testing comparison condition studied (restudy, filler activities, no re-presentation). Effect sizes were moderated by features of the practice tests, participant and study characteristics, and outcome measures. This provides quantitative backing for designing curricula around retrieval practice rather than passive review.
+- **Relevant findings:**
+  - From the ERIC abstract (verbatim): "Results reveal that practice tests are more beneficial for learning than restudying and all other comparison conditions. Mean effect sizes were moderated by the features of practice tests, participant and study characteristics, outc[omes]…" (record: EJ1141817, RER v87 n3 p659-701, 2017-Jun).
+  - As summarized by the Wing Institute's independent review of this meta-analysis: "the impact of practice tests had a moderate effect size of 0.51 compared with restudying, and a larger effect size of 0.93 compared with filler or no activities"; conclusion: "practice tests are more beneficial for learning than restudying and all other conditions that exclude practice tests."
+  - Citation footprint: ~993-996 citations (per ERIC/psycnet indexed counts, 2026).
+- **Population / methodology / tools:** Meta-analysis of practice-testing experiments across education research; full moderator table not accessible in this session (publisher paywall).
+- **Limitations / conflicts of interest / applicability:** Primary full text was not directly accessible (Cloudflare-gated); effect-size figures above come from the ERIC abstract (direction finding) and an independent secondary summary (specific values). Applicable to designing the platform's "understanding checks" as retrieval practice.
+- **Candidate claims supported:**
+  - Causal: retrieval practice produces more durable learning than restudying (meta-analytic evidence).
+  - Recommendation: curricula should embed low-stakes self-testing (recommendation grounded in this meta-analysis).
+- **Implications for learners:** Re-testing yourself — not re-reading — is the evidence-based way to study; every topic on this platform therefore includes an independent understanding check.
+- **Confidence:** medium-high — direction of effect verified from the primary abstract; exact effect sizes from one independent secondary summary.
+- **Access status:** partial (abstract + secondary summary; full text paywalled)

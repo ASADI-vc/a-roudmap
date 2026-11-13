@@ -1,0 +1,23 @@
+# src-puter-deployments
+
+- **Title:** Deployments — Puter.js v2 documentation
+- **Author / Organization:** Puter Technologies Inc. (official documentation)
+- **Canonical URL:** https://docs.puter.com/deployments/
+- **Publication / update date:** unknown
+- **Access date:** 2026-11-14
+- **Source type:** official vendor documentation
+- **Research questions addressed:** RQ9 (can a client-side/static app use Puter AI from any host?)
+- **Original summary (own words):** Puter.js is an ordinary browser JavaScript library; apps using it deploy like any other website with no backend to provision. The docs state apps can be hosted on any provider (examples: Vercel, Cloudflare Pages, Netlify, GitHub Pages) and "no extra configuration is required" for the app to keep talking to Puter services from the browser. Puter also offers free hosting on `*.puter.site` subdomains via publishing from puter.com, the Puter CLI (`puter site deploy`), or GitHub Actions.
+- **Relevant findings:**
+  - "Puter.js is a regular JavaScript library, so your app deploys like any other website."
+  - "Deploy anywhere: Because Puter.js runs entirely in the browser, there's no special backend to provision."
+  - "No extra configuration is required. Your app keeps talking to Puter's services from the browser, wherever it's hosted."
+  - Free `*.puter.site` subdomain hosting; CLI `npm install -g @heyputer/cli` then `puter site deploy [dir] [subdomain]`; GitHub Actions deploy option.
+  - No custom-domain instructions on this page.
+- **Population / methodology / tools:** N/A.
+- **Limitations / conflicts of interest / applicability:** Vendor documentation; origin/CORS specifics are not detailed on this page (auth popups require a browsable origin, per Auth docs: `unsupported_origin` error when "the page has no origin the browser will vouch for", e.g. file:// pages).
+- **Candidate claims supported:**
+  - Recommendation: the learning site can be static-first and still offer per-user AI through Puter.js from any HTTPS origin (recommendation).
+- **Implications for learners:** N/A directly; informs deployment architecture.
+- **Confidence:** high — primary vendor documentation, directly fetched.
+- **Access status:** full

@@ -1,0 +1,25 @@
+# src-puter-userpays
+
+- **Title:** User-Pays Model
+- **Author / Organization:** Puter Technologies Inc. (official documentation)
+- **Canonical URL:** https://docs.puter.com/user-pays-model/
+- **Publication / update date:** unknown (page shows © 2026 Puter Technologies Inc.)
+- **Access date:** 2026-11-14
+- **Source type:** official vendor documentation (authoritative for the vendor's own API and billing model)
+- **Research questions addressed:** RQ9 (what the AI provider actually supports; how AI features can be offered without a developer-funded account)
+- **Original summary (own words):** Puter's User-Pays Model shifts AI/cloud resource costs from the developer to each end user: users sign in with their own Puter account, and their usage of AI, storage, and other resources is billed against that account. The developer pays nothing for user consumption and there are no API keys to manage. Every user begins with a free monthly allowance; when it runs out, Puter prompts the user to upgrade or the user can upgrade in billing settings. Developers using their own app pay for their own usage like any other user.
+- **Relevant findings:**
+  - "Each user pays for the resources they consume in your app through their own Puter account" (exact wording from page).
+  - "Whether you have 1 or 1 million users, your infrastructure cost stays at $0" — developer infrastructure cost framing.
+  - "Their usage never touches your bill"; "No API keys at all".
+  - "Every user starts with a free monthly allowance, enough to test out the platform and use apps built with Puter.js."
+  - When allowance is exhausted, "Puter prompts them to upgrade for more, or they can do it themselves in their billing settings."
+  - The page does not specify behavior for a user who has not signed in when an AI call is made (handled empirically by the SDK/auth flow).
+- **Population / methodology / tools:** N/A — vendor policy documentation, not empirical research.
+- **Limitations / conflicts of interest / applicability:** Vendor marketing-adjacent but it is the authoritative source for the vendor's own billing mechanics. Specific allowance amounts and prices are not published on this page and must not be quoted by third parties.
+- **Candidate claims supported:**
+  - Recommendation: an educational site can offer AI features with no developer-funded shared account by delegating auth+billing to each user's own Puter account (recommendation).
+  - Observed (vendor-documented): users have an initial free monthly allowance; exhaustion triggers an upgrade prompt.
+- **Implications for learners:** Learners must be told, before their first AI request, that the assistant uses their own Puter account and allowance; no unlimited-free promise is possible.
+- **Confidence:** high — primary vendor documentation, directly fetched.
+- **Access status:** full

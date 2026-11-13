@@ -1,0 +1,23 @@
+# src-mckinsey-soai2025
+
+- **Title:** The State of AI: Global Survey (2025 editions: "How organizations are rewiring to capture value", March 2025; "The State of AI: Global Survey 2025", November 2025; 2026 edition published August 2026)
+- **Author / Organization:** McKinsey & Company (QuantumBlack)
+- **Canonical URL:** https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2025 (Nov 2025 edition); earlier: https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value
+- **Publication / update date:** 2025-03-12 (first edition cited); 2025-11-05 (second edition cited); 2026-08-25 (2026 edition exists)
+- **Access date:** 2026-11-14
+- **Source type:** industry consultancy survey (organization self-reports)
+- **Research questions addressed:** RQ7 (organizational AI adoption context) / RQ6 (labor-market demand context)
+- **Original summary (own words):** McKinsey's recurring global survey of organizations reports rapidly rising AI adoption: in the edition published March 2025, 78 percent of respondents said their organizations use AI in at least one business function, up from 72 percent in the previous survey; the November 2025 edition reports a further increase ("compared with 78 percent a year ago"). The series tracks adoption by business function, hiring changes, and reported business impact. It is an influential but self-reported, consultancy-run measure of organizational adoption — useful as context, not as measured productivity or employment evidence.
+- **Relevant findings:**
+  - "In the latest survey, 78 percent of respondents say their organizations use AI in at least one business function, up from 72 percent in" the prior survey (McKinsey page indexed text, edition of 2025-03-12).
+  - November 2025 edition: adoption "at least one business function, compared with 78 percent a year ago" (McKinsey page indexed text); McKinsey's own announcement post states "88% of organizations use AI. Few have scaled it" — the 88% figure is from the publisher's promotional post; the full report page and PDF were not directly accessible in this session (Access Denied / transfer failure).
+  - A 2026 edition (published 2026-08-25) exists and supersedes these numbers for current-state claims; its figures were not accessible in this session.
+  - Function-level software-engineering adoption percentages: not verified in this session (gated).
+- **Population / methodology / tools:** Annual global survey of organizations (respondents typically senior/functional leaders; self-reported adoption and impact perceptions). Exact n not verified in this session.
+- **Limitations / conflicts of interest / applicability:** Consultancy with commercial interest in AI transformation services; self-reported organizational perception, not measured output or payroll data; global scope but skewed toward large organizations; figures change every edition — must be cited with edition date.
+- **Candidate claims supported:**
+  - Survey: organizational AI adoption rose sharply 2023-2025 (78% "at least one function" by early-2025 survey; ~88% reported late 2025 per publisher's post).
+  - Forecast-labeled elsewhere; this source is NOT evidence of individual developer productivity or junior employment effects.
+- **Implications for learners:** Adoption context supports learning AI-assisted workflows; but adoption surveys say nothing about whether AI makes any individual faster or better — see METR/DORA evidence for that.
+- **Confidence:** medium — headline percentages verified from publisher-indexed text; page itself bot-blocked; 88% figure from publisher's own social announcement rather than the fetched report body.
+- **Access status:** partial (pages bot-blocked; verified via publisher's indexed page text and publisher's announcement)

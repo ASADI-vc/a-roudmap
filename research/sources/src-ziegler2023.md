@@ -1,0 +1,27 @@
+# src-ziegler2023
+- **Title:** Measuring GitHub Copilot's Impact on Productivity and Happiness in Controlled Experiments (original ESEC/FSE 2022 SEIP paper; extended version published as Ziegler et al., "Measuring GitHub Copilot's Impact on Productivity", Communications of the ACM, Feb 22, 2024)
+- **Author / Organization:** Albert Ziegler, Eirini Kalliamvakou, X. Alice Li, Andrew Rice, Devon Rifkin, Shawn Simister, Ganesh Sittampalam, Edward Aftandilian (GitHub / Microsoft) — author list and CACM version verified via Crossref (DOI 10.1145/3633453)
+- **Canonical URL:** ACM ESEC/FSE 2022 SEIP paper (ACM Digital Library, paywalled/bot-protected — not directly fetchable this run). Verified primary-adjacent source used for figures: GitHub's official research post by the same team: https://github.blog/2022-09-14-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/ (Eirini Kalliamvakou, Sept 7, 2022, updated May 21, 2024). CACM version: https://doi.org/10.1145/3633453
+- **Publication / update date:** ESEC/FSE 2022 (Sept 2022); blog Sept 7, 2022 (updated May 21, 2024); CACM Feb 22, 2024
+- **Access date:** 2026-11-14
+- **Source type:** controlled experiment + large survey, run by the vendor (GitHub Next in partnership with Microsoft Office of the Chief Economist)
+- **Research questions addressed:** RQ4 (productivity) and RQ7 (usage, perception, happiness/trust)
+- **Original summary (own words):** GitHub's research team measured Copilot's effects with two studies: a randomized controlled experiment where 95 professional developers implemented an HTTP server in JavaScript (Copilot group completed it ~55% faster, 1h11m vs 2h41m, P=.0017, 95% CI [21%, 89%]), and a survey of more than 2,000 Technical Preview users using the SPACE framework. Survey respondents strongly perceived productivity gains (>90% agreed tasks complete faster) and reported well-being benefits (87% preserve mental effort on repetitive tasks, 73% stay in flow, 60–75% more fulfilled/less frustrated). The research intentionally treats productivity as more than speed.
+- **Relevant findings:**
+  - Experiment: 95 professional developers, randomized into two groups, task = implement an HTTP server in JavaScript, scored via GitHub Classroom test suite.
+  - "The group that used GitHub Copilot had a higher rate of completing the task (78%, compared to 70% in the group without Copilot)."
+  - Speed: "developers who used GitHub Copilot completed the task significantly faster–55% faster"; Copilot group averaged 1 hour 11 minutes vs 2 hours 41 minutes for controls; "statistically significant (P=.0017)" with "95% confidence interval for the percentage speed gain [21%, 89%]."
+  - Survey (>2,000 responses; ~60% professional developers, ~30% students, ~7% hobbyists; Technical Preview sign-ups):
+    - "60–75% of users reported they feel more fulfilled with their job, feel less frustrated when coding, and are able to focus on more satisfying work."
+    - Flow/effort: 73% stay in flow; 87% preserve mental effort during repetitive tasks.
+    - ">90% agreement" that Copilot helps them complete tasks faster, especially repetitive ones.
+  - Framework: SPACE (Satisfaction/well-being, Performance, Activity, Communication/collaboration, Efficiency/flow).
+- **Population / methodology / tools:** RCT (n=95, all JavaScript-familiar professionals, identical instructions, automatic correctness scoring) + large survey (n>2,000) + qualitative interviews; tool = GitHub Copilot (2022 technical-preview era).
+- **Limitations / conflicts of interest / applicability:** Vendor-run: the tool vendor (GitHub/Microsoft) designed, ran, and published the research with its own product team (acknowledged partnership with Microsoft Office of the Chief Economist; the related Peng et al. analysis grew out of the same collaboration). Single synthetic task (HTTP server in JavaScript) favorable to autocomplete; task-level, not end-to-end delivery. Survey respondents are Copilot Technical Preview opt-in users — selection bias toward enthusiasts; all survey outcomes are self-reported perceptions. The blog flags that code-quality effects were future work, not measured here.
+- **Candidate claims supported:**
+  - **causal** (RCT, vendor-run): Copilot sped up this specific 95-person JavaScript HTTP-server task ~55% (CI [21%, 89%]).
+  - **survey:** >90% of surveyed users perceive faster task completion; 87% report preserved mental effort; 73% flow; 60–75% satisfaction gains.
+  - **opinion/recommendation:** productivity should be measured holistically (SPACE) rather than speed-only.
+- **Implications for learners:** The largest measured gains (and the strongest happiness effects) come on boilerplate/repetitive work — consistent with Barke et al.'s "acceleration" mode. Learners can expect AI assistance to help most on familiar-pattern tasks and should be aware that perceived speedups (survey) are much larger than measured ones (55% on one task) and that these figures come from the vendor.
+- **Confidence:** high for the numbers quoted (directly from GitHub's own research blog by the study team, fetched in full); medium for paper-level details (ACM full text not accessed; authorship/venue verified via Crossref only for the CACM version).
+- **Access status:** partial (ACM paper not fetched; official vendor research post + Crossref metadata fetched)

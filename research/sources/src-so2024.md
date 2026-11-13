@@ -1,0 +1,29 @@
+# src-so2024
+- **Title:** 2024 Stack Overflow Developer Survey
+- **Author / Organization:** Stack Overflow (Stack Exchange Inc.)
+- **Canonical URL:** https://survey.stackoverflow.co/2024/ (AI section: https://survey.stackoverflow.co/2024/ai)
+- **Publication / update date:** July 2024 (survey fielded May 2024)
+- **Access date:** 2026-11-14
+- **Source type:** developer survey
+- **Research questions addressed:** RQ7 (practitioner AI usage/trust) and RQ4 (productivity perceptions)
+- **Original summary (own words):** In 2024, three-quarters of Stack Overflow respondents used or planned to use AI tools, and usage had jumped year over year, but enthusiasm was already cooling: favorability dropped five points from 2023, and developers were split on trusting AI accuracy. Productivity gain was the headline hoped-for benefit, yet nearly half of professional developers judged AI tools bad at complex tasks.
+- **Relevant findings:**
+  - **Total respondents:** "In May 2024, over 65,000 developers responded to our annual survey"; header figure: 65,437 coders from 185 countries (48,019 shared salary information). Top countries: USA 18.9%, Germany 8.4%, India 7.2%, UK 5.5%, Ukraine 4.6%.
+  - **AI adoption:** "76% of all respondents are using or are planning to use AI tools in their development process this year, an increase from last year (70%). Many more developers are currently using AI tools this year, too (62% vs. 44%)." Items (all respondents): Yes 61.8%, No but plan to soon 13.8%, No and don't plan to 24.4% (Responses: 60,907, 93.1%).
+  - **Favorability decline:** "72% of all respondents are favorable or very favorable of AI tools for development. This is lower than last year's favorability of 77%; a decline in favorability could be due to disappointing results from usage." Items: very favorable 23.6%, favorable 48.3%, indifferent 18.7%, unsure 3%, unfavorable 5.2%, very unfavorable 1.2% (Responses: 45,873).
+  - **Accuracy trust:** "developers remain split on whether they trust AI output: 43% feel good about AI accuracy and 31% are skeptical. Developers learning to code are trusting AI accuracy more than their professional counterparts (49% vs. 42%)." Items: highly trust 2.7%, somewhat trust 40.3%, neither trust nor distrust 26.6%, somewhat distrust 22.5%, highly distrust 7.9% (Responses: 37,302).
+  - **Complex tasks:** "Almost half (45%) of professional developers believe AI tools are bad or very bad at handling complex tasks."
+  - **Benefits:** "81% agree increasing productivity is the biggest benefit"; increase productivity 81%, speed up learning 62.4%, greater efficiency 58.5%, improve accuracy in coding 30.3% (Responses: 36,894).
+  - **Tools:** "Most developers use ChatGPT of all the AI tools, and 74% want to keep using it next year."
+  - **Job threat:** "70% of professional developers do not perceive AI as a threat to their job."
+  - **Iran note:** No Iran-specific mention visible in fetched landing/AI-section text on 2026-11-14.
+- **Population / methodology / tools:** n = 65,437 respondents from 185 countries, fielded May 2024, recruited via Stack Overflow channels (self-selected, English-oriented audience); professional-developer subsets used for several questions (response counts shown per question, e.g., 60,907 for usage question). Self-report of usage, sentiment, and hoped-for benefits.
+- **Limitations / conflicts of interest / applicability:** Perceptions only — "productivity" benefit is expected/hoped-for, not measured; survey hosted by Stack Overflow, which benefits commercially from the developer-community narrative and positions itself as the "human-verified" alternative to AI answers; sample skewed to high-engagement SO users in US/Germany/India; geographic scope global but not representative of all world developers.
+- **Candidate claims supported:**
+  - observed (survey): 76% using or planning to use AI tools in 2024 (65,437 respondents, 185 countries, May 2024).
+  - survey: favorability fell 77% → 72% between 2023 and 2024.
+  - survey: 43% feel good about AI accuracy vs 31% skeptical (2024).
+  - observed (survey): 45% of professional developers say AI tools are bad/very bad at complex tasks.
+- **Implications for learners:** Learners are the most AI-enthusiastic group (49% trust accuracy vs 42% of pros) while professionals show more skepticism — signals that employers-adjacent senior judgment still distrusts AI output; juniors should pair AI fluency with verification habits and avoid over-reliance while trust remains this low.
+- **Confidence:** high — figures fetched directly from the official 2024 survey site (landing + AI section pages), verbatim.
+- **Access status:** full

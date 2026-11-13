@@ -1,0 +1,28 @@
+# src-bls-swe
+- **Title:** Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers
+- **Author / Organization:** U.S. Bureau of Labor Statistics (BLS), Occupational Outlook Handbook (OOH)
+- **Canonical URL:** https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
+- **Publication / update date:** OOH is updated annually; the 2024–34 projections edition was current as of the requested window (exact page revision date not captured — page not fetched)
+- **Access date:** 2026-11-14
+- **Source type:** labor statistics (official US government employment projections and wage data)
+- **Research questions addressed:** RQ6 (employment/junior demand changes — official baseline for expected occupational growth in the United States)
+- **Original summary (own words):** Direct access to the BLS OOH page was blocked on every fetch attempt, so no content from that page could be captured. As a fallback, official BLS-sourced figures for the same occupation were captured from O*NET OnLine (U.S. Department of Labor database that republishes BLS Employment Projections and wage data): continued "much faster than average" projected growth for software developers, ~1.7 million employed, and six-figure median pay.
+- **Relevant findings:**
+  - **BLS OOH page itself: NOT ACCESSIBLE — no statistics captured from it.** Access attempts (agent-browser, curl, alternate headers, Wayback Machine, proxy): blocked (HTTP 403 "Access Denied") or unreachable. All "Relevant findings" below come from the clearly labeled supplementary O*NET fetch, not the OOH page.
+  - **Supplementary (O*NET OnLine, occupation 15-1252.00 Software Developers; Source line on page: "Source: Bureau of Labor Statistics, 2025 wage data"):**
+    - Median wages (2025): "$65.38 hourly, $135,980 annual" (United States).
+    - Employment (2025): "1,717,800 employees" (United States).
+    - Projected growth (2025–2035): "Much faster than average (7% or higher)" — O*NET's category label; the exact BLS percentage was not visible on this page.
+    - Projected job openings (2025–2035): "95,300" (openings due to growth and replacement; page states "Projected job openings represent openings due to growth and replacement").
+    - Top industries (2025): Professional, Scientific, and Technical Services; Information.
+  - **Geography: United States only** (federal projections and national median wage; state-level data exists but was not fetched).
+  - **Iran note:** No Iran-specific labor data exists in this source; BLS projections cover the United States exclusively.
+- **Population / methodology / tools:** BLS Employment Projections program: modeled 10-year occupational projections from economic modeling of US industries (not a survey); wage medians from BLS Occupational Employment and Wage Statistics (OEWS) establishment survey. O*NET 15-1252.00 covers "Software Developers" (BLS/O*NET split QA analysts/testers into 15-1253.00; the OOH page combines them as "Software Developers, QA Analysts and Testers" — its combined figures may differ from the 15-1252.00 figures above).
+- **Limitations / conflicts of interest / applicability:** Official government statistics — high authority, but (1) projections decade shown by O*NET is 2025–2035 (the task expected the OOH's possibly different decade, e.g., 2024–34, which could not be verified); (2) projections are model-based forecasts, historically revised, and subject to uncertainty about AI's effect on occupational demand; (3) growth % is an aggregate for all software developers (all seniority levels), not junior/entry-level demand specifically; (4) US-only. The OOH page figures could not be captured verbatim — do not cite OOH-specific numbers (e.g., "about X openings per year", exact %) without re-verification.
+- **Candidate claims supported:**
+  - forecast: US software-developer employment projected to grow "much faster than average (7% or higher)" over 2025–2035 (BLS data via O*NET).
+  - observed: US median pay $135,980/year (2025); 1,717,800 employed (2025).
+  - forecast: ~95,300 projected annual job openings 2025–2035 (growth + replacement).
+- **Implications for learners:** The official US baseline still projects strong long-run demand and high pay for developers, but "much faster than average" masks distribution across seniority; learners should track entry-level-specific signals (e.g., Stanford Canaries study) alongside this aggregate, and note that openings include replacement churn, not just new demand.
+- **Confidence:** low for the BLS OOH page itself (not accessed — blocked after 3+ attempts; canonical URL still recorded). Medium for the supplementary O*NET figures (fetched verbatim from an official DOL website with explicit "Source: Bureau of Labor Statistics" attribution, but different occupation aggregation and projections decade than the OOH combined profile).
+- **Access status:** inaccessible (BLS OOH page blocked; partial supplementary capture from O*NET OnLine)

@@ -1,0 +1,22 @@
+# src-pearce2022
+- **Title:** Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
+- **Author / Organization:** Hammond Pearce, Baleegh Ahmad, Benjamin Tan, Brendan Dolan-Gavitt, Ramesh Karri (NYU / academic researchers)
+- **Canonical URL:** https://arxiv.org/abs/2108.09293 (DOI: 10.48550/arXiv.2108.09293)
+- **Publication / update date:** Submitted 20 Aug 2021 (v1); last revised 16 Dec 2021 (v3); accepted at IEEE Symposium on Security and Privacy 2022
+- **Access date:** 2026-11-14
+- **Source type:** peer-reviewed study (IEEE S&P 2022; preprint on arXiv)
+- **Research questions addressed:** RQ5 (security risks of AI-generated code)
+- **Original summary (own words):** The authors systematically probe GitHub Copilot's security behavior by constructing code-completion scenarios tied to high-risk CWEs from MITRE's "Top 25" list. Across 89 scenarios spanning weakness diversity, prompt diversity, and domain diversity, they collected 1,689 Copilot-generated programs and had them assessed against the CWEs. Roughly 40% of the generated programs were found to be vulnerable, showing that a code-generation model trained on unvetted open-source code will reproduce exploitable patterns at a substantial rate.
+- **Relevant findings:**
+  - "In total, we produce 89 different scenarios for Copilot to complete, producing 1,689 programs. Of these, we found approximately 40% to be vulnerable."
+  - Scenarios were "relevant to high-risk CWEs (e.g. those from MITRE's 'Top 25' list)."
+  - Analysis covered "three distinct code generation axes" — diversity of weaknesses, diversity of prompts, diversity of domains.
+  - Motivation stated: Copilot is trained on "vast quantity of unvetted" GitHub code, so it "will have learned from exploitable, buggy code."
+- **Population / methodology / tools:** Prompt-driven synthesis: Copilot (Codex-based model, 2021 era) prompted with function signatures/bodies for 89 CWE-themed scenarios; generated programs scored for vulnerability presence per CWE (per the paper's methodology described in the abstract). Tools: GitHub Copilot / OpenAI Codex (2021).
+- **Limitations / conflicts of interest / applicability:** Synthetic benchmarking of an older (2021) model under adversarially chosen security-sensitive scenarios — not a measure of real-world developer workflows or of current models. Only the abstract was fetched in this run; full scoring details (e.g., per-CWE rates) come from the paper body. Academic work, no vendor funding conflict apparent; GitHub did not fund (authors are NYU).
+- **Candidate claims supported:**
+  - **observed:** ~40% of Copilot-generated programs in security-sensitive scenarios were vulnerable (2021 model).
+  - **recommendation:** (implied by the paper's framing) AI-generated code requires security review — keep as implication, not a fetched claim.
+- **Implications for learners:** Autocomplete-style AI suggestions arrive without security context; learners must learn the OWASP/CWE basics so they can recognize vulnerable patterns Copilot-style tools propose, especially in auth, crypto, injection, and input-handling code.
+- **Confidence:** high for the abstract-level numbers (89 scenarios / 1,689 programs / ~40% vulnerable) — quoted verbatim from the arXiv abstract; medium for any deeper pattern claims since only the abstract was accessed this run.
+- **Access status:** partial (arXiv abstract + metadata fetched; full paper PDF not parsed in this run)
